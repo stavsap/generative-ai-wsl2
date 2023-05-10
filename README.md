@@ -1,6 +1,6 @@
 # Generative AI WSL2
 
-The provided scripts are for **Ubuntu** WSL Distor.
+The provided scripts are for **Ubuntu** WSL Distro.
 
 ## Stable Diffusion Webui
 
