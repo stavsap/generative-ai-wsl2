@@ -1,3 +1,9 @@
+curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/run.sh > run.sh
+chmod +x run.sh
+
+curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/update.sh > update.sh
+chmod +x update.sh
+
 git clone https://github.com/bmaltais/kohya_ss
 cd kohya_ss
 ./setup.sh -v
