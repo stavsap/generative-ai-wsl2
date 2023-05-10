@@ -1,10 +1,10 @@
 # Generative AI WSL2
 
-An easy to setup commands to run generative AI projects inside WSL (Windows Subsystem for Linux)
+An easy to setup commands to run open-source generative AI projects inside WSL (Windows Subsystem for Linux)
 
 The provided scripts are for **Ubuntu** WSL Distro.
 
-new to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/WSL-2.0)
+New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/WSL-2.0)
 
 <a href="https://www.buymeacoffee.com/stavsapq" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
