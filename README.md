@@ -4,6 +4,8 @@ An easy to setup commands to run generative AI projects inside WSL (Windows Subs
 
 The provided scripts are for **Ubuntu** WSL Distro.
 
+<a href="https://www.buymeacoffee.com/stavsapq" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
+
 ## Stable Diffusion Webui
 
 Install [Stable-Diffusion webui a1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui.git)
