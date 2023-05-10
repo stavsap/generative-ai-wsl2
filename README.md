@@ -1,1 +1,1 @@
-# generative-ai-wsl2
+# Generative AI WSL2
