@@ -39,3 +39,19 @@ Install (for Ubuntu distro with basic requirements)
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/kandinsky/install.sh | bash
 ```
+
+## Tortoise-TTS-Fast  (Kubin)
+
+Install [Tortoise-TTS-Fast Webui](https://github.com/thisserand/tortoise-tts-fast.git)
+
+Full Install (for clean Ubuntu distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash
+```
+
+Install (for Ubuntu distro with basic requirements)
+ 
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install.sh | bash
+```
