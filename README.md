@@ -1,6 +1,6 @@
 # Generative AI WSL2
 
-The provided scripts are tested on Windows 11 WSL2 Ubuntu distro
+The provided scripts are for **Ubuntu** WSL Distor.
 
 ## Stable Diffusion Webui
 
