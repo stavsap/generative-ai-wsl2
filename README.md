@@ -72,3 +72,19 @@ Install (for Ubuntu distro with basic requirements)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install.sh | bash
 ```
 
+## Text Generation Webui 2.1 Webui (Oobabooga)
+
+Install [DreamBooth Webui](https://github.com/bmaltais/kohya_ss)
+
+Full Install (for clean Ubuntu distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh |  bash
+```
+
+Install (for Ubuntu distro with basic requirements)
+ 
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install.sh | bash
+```
+
