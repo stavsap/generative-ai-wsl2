@@ -107,11 +107,5 @@ Install [Text Generation Webui](https://github.com/oobabooga/text-generation-web
 Full Install (for clean Ubuntu distro)
 
 ``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash
-```
-
-Install (for Ubuntu distro with basic requirements)
- 
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install.sh | bash
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_full.sh |  bash
 ```
