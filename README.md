@@ -13,7 +13,7 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 2. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
 3. [Tortoise-TTS-Fast Webui](#tortoise-tts-fast-webui-thisserand)
 4. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
-5. [Text Generation Webui](#stable-diffusion-webui-automatic1111)
+5. [Text Generation Webui](#text-generation-webui-oobabooga)
 
 
 
