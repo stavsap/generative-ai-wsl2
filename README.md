@@ -108,6 +108,6 @@ Full Install (for clean Ubuntu distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_base.sh |  bash
 source .bashrc
 conda init bash
-source .bashr
+source .bashrc
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install.sh |  bash
 ```
