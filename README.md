@@ -102,14 +102,17 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text
 
 Install [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4.git)
 
-Full Install (for clean Ubuntu distro)
+1. Full Install (for clean Ubuntu distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_base.sh | bash
 source .bashrc
 conda init bash
 source .bashrc
-wget https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install.sh
-chmod +x install.sh
-./install.sh
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install.sh | bash
+```
+
+2. Run
+``` shell
+./run.sh
 ```
