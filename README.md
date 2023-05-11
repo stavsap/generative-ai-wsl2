@@ -10,7 +10,7 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 
 # Table of contents
 1. [Stable Diffusion Webui](#stable-diffusion-webui-automatic1111)
-2. [Kandinsky 2.1](#paragraph1)
+2. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
 
 
 ## Stable Diffusion Webui (AUTOMATIC1111)
