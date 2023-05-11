@@ -1,5 +1,7 @@
 # Generative AI WSL2
 
+## 🚦 WIP 🚦
+
 An easy to setup commands to run open-source generative AI projects inside WSL (Windows Subsystem for Linux)
 
 The provided scripts are for **Ubuntu** WSL Distro.
