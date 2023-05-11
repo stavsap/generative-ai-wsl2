@@ -11,6 +11,10 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 # Table of contents
 1. [Stable Diffusion Webui](#stable-diffusion-webui-automatic1111)
 2. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
+3. [Tortoise-TTS-Fast Webui](#stable-diffusion-webui-automatic1111)
+4. [DreamBooth Webui](#stable-diffusion-webui-automatic1111)
+5. [Text Generation Webui](#stable-diffusion-webui-automatic1111)
+
 
 
 ## Stable Diffusion Webui (AUTOMATIC1111)
