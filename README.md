@@ -16,7 +16,7 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 3. [Tortoise-TTS-Fast Webui](#tortoise-tts-fast-webui-thisserand)
 4. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
 5. [Text Generation Webui](#text-generation-webui-oobabooga)
-6. [MiniGPT4](#text-generation-webui-oobabooga)
+6. [MiniGPT4](#minigpt4)
 
 
 
