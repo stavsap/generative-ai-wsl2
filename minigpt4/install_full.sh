@@ -15,6 +15,8 @@ sudo add-apt-repository "deb https://developer.download.nvidia.com/compute/cuda/
 sudo apt-get update
 sudo apt-get install libcudnn8=8.9.1.*-1+cuda12.1 libcudnn8-dev=8.9.1.*-1+cuda12.1 libcudnn8-samples=8.9.1.*-1+cuda12.1 -y
 
+echo "Installing Miniconda3!"
+
 curl -sL "https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh" > "Miniconda3.sh"
 bash Miniconda3.sh -b 
 
@@ -23,13 +25,15 @@ echo 'export PATH="$PATH:/home/$USER/miniconda3/bin/"' >> .bashrc
 echo 'export PATH="$PATH:/home/$USER/miniconda3/envs/textgen/bin/"' >> .bashrc
 echo 'export LD_LIBRARY_PATH="/usr/lib/wsl/lib:/home/$USER/miniconda3/lib/"' >> .bashrc
 
+echo "Refreshing BASH!"
+
 source .bashrc
-
 conda init bash
-
 source .bashrc
 
 nvidia-smi
+
+echo "Installing MiniGPT4!"
 
 git clone https://github.com/Vision-CAIR/MiniGPT-4.git
 cd MiniGPT-4/
