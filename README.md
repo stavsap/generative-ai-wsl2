@@ -18,8 +18,6 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 5. [Text Generation Webui](#text-generation-webui-oobabooga)
 6. [MiniGPT4](#minigpt4)
 
-
-
 ## Stable Diffusion Webui (AUTOMATIC1111)
 
 Install [Stable-Diffusion webui a1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui.git)
@@ -102,7 +100,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text
 
 ## MiniGPT4 
 
-Install [Text Generation Webui](https://github.com/oobabooga/text-generation-webui)
+Install [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4.git)
 
 Full Install (for clean Ubuntu distro)
 
