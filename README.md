@@ -109,5 +109,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/mini
 source .bashrc
 conda init bash
 source .bashrc
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install.sh | bash
+wget https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install.sh
+chmod +x install.sh
+./install.sh
 ```
