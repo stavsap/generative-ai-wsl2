@@ -1,6 +1,6 @@
 nvidia-smi
 
-curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/run.sh > run.sh
+curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/run.sh > run.sh
 chmod +x run.sh
 
 echo "Installing MiniGPT4!"
