@@ -110,3 +110,9 @@ Full Install (for clean Ubuntu distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_base.sh | bash
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install.sh | bash -i
 ```
+
+Full Install (for clean Ubuntu distro) NOT STABLE YET!
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_full.sh | bash
+```
