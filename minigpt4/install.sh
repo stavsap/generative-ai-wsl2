@@ -3,6 +3,9 @@ nvidia-smi
 curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/run.sh > run.sh
 chmod +x run.sh
 
+curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/update.sh > update.sh
+chmod +x update.sh
+
 echo "Installing MiniGPT4!"
 
 git clone https://github.com/Vision-CAIR/MiniGPT-4.git
