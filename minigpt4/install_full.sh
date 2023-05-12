@@ -42,9 +42,9 @@ wget https://huggingface.co/wangrongsheng/MiniGPT4-7B/resolve/main/prerained_min
 sed -i 's,llama_model: \"/path/to/vicuna/weights/\",llama_model: \"wangrongsheng/MiniGPT-4-LLaMA-7B\",' minigpt4/configs/models/minigpt4.yaml
 sed -i 's,/path/to/pretrained/ckpt/,prerained_minigpt4_7b.pth,' eval_configs/minigpt4_eval.yaml
 
-conda env create -f environment.yml
+/home/$USER/miniconda3/bin/conda env create -f environment.yml
 source /home/$USER/miniconda3/etc/profile.d/conda.sh # otherwise conda complains about 'shell not initialized' (needed when running in a script)
-conda activate minigpt4
+/home/$USER/miniconda3/bin/conda activate minigpt4
 
 python demo.py --cfg-path eval_configs/minigpt4_eval.yaml --gpu-id 0
 
