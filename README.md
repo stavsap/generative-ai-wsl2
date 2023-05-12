@@ -89,13 +89,13 @@ Install [Text Generation Webui](https://github.com/oobabooga/text-generation-web
 Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash -i
 ```
 
 Install (for Ubuntu 22.04 distro with basic requirements)
  
 ``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install.sh | bash
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install.sh | bash -i
 ```
 
 [Docs](https://github.com/stavsap/generative-ai-wsl2/blob/main/docs/Text-Generation-Webui.MD)
@@ -105,9 +105,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text
 Install [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4.git)
 
 Full Install (for clean Ubuntu 22.04 distro)
-note: since full install involve in conda init, 2 step setup is required.
 
 ``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_base.sh | bash
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install.sh | bash -i
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_full.sh | bash -i
 ```
