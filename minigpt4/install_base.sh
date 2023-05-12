@@ -25,4 +25,4 @@ echo 'export PATH="$PATH:/home/$USER/miniconda3/bin/"' >> .bashrc
 echo 'export PATH="$PATH:/home/$USER/miniconda3/envs/textgen/bin/"' >> .bashrc
 echo 'export LD_LIBRARY_PATH="/usr/lib/wsl/lib:/home/$USER/miniconda3/lib/"' >> .bashrc
 
-echo "Refreshing BASH!"
+/home/$USER/miniconda3/bin/conda init bash
