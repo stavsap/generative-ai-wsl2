@@ -4,7 +4,7 @@
 
 An easy to setup commands to run open-source generative AI projects inside WSL (Windows Subsystem for Linux)
 
-The provided scripts are for **Ubuntu** WSL Distro.
+The provided scripts are for **Ubuntu 22.04** WSL Distro.
 
 New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/WSL-2.0)
 
