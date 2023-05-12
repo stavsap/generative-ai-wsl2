@@ -90,12 +90,14 @@ Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash -i
+./run.sh
 ```
 
 Install (for Ubuntu 22.04 distro with basic requirements)
  
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install.sh | bash -i
+./run.sh
 ```
 
 [Docs](https://github.com/stavsap/generative-ai-wsl2/blob/main/docs/Text-Generation-Webui.MD)
