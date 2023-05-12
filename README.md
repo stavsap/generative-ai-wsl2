@@ -22,13 +22,13 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 
 Install [Stable-Diffusion webui a1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui.git)
 
-Full Install (for clean Ubuntu distro)
+Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_full.sh | bash
 ```
 
-Install (for Ubuntu distro with basic requirements)
+Install (for Ubuntu 22.04 distro with basic requirements)
  
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install.sh | bash
@@ -38,13 +38,13 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stab
 
 Install [Kandinsky 2.1 Webui](https://github.com/seruva19/kubin)
 
-Full Install (for clean Ubuntu distro)
+Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/kandinsky/install_full.sh | bash
 ```
 
-Install (for Ubuntu distro with basic requirements)
+Install (for Ubuntu 22.04 distro with basic requirements)
  
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/kandinsky/install.sh | bash
@@ -54,13 +54,13 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/kand
 
 Install [Tortoise-TTS-Fast Webui](https://github.com/thisserand/tortoise-tts-fast.git)
 
-Full Install (for clean Ubuntu distro)
+Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash
 ```
 
-Install (for Ubuntu distro with basic requirements)
+Install (for Ubuntu 22.04 distro with basic requirements)
  
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install.sh | bash
@@ -70,13 +70,13 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tort
 
 Install [DreamBooth Webui](https://github.com/bmaltais/kohya_ss)
 
-Full Install (for clean Ubuntu distro)
+Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh |  bash
 ```
 
-Install (for Ubuntu distro with basic requirements)
+Install (for Ubuntu 22.04 distro with basic requirements)
  
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install.sh | bash
@@ -86,13 +86,13 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/drea
 
 Install [Text Generation Webui](https://github.com/oobabooga/text-generation-webui)
 
-Full Install (for clean Ubuntu distro)
+Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash
 ```
 
-Install (for Ubuntu distro with basic requirements)
+Install (for Ubuntu 22.04 distro with basic requirements)
  
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install.sh | bash
@@ -104,7 +104,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text
 
 Install [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4.git)
 
-Full Install (for clean Ubuntu distro)
+Full Install (for clean Ubuntu 22.04 distro)
 note: since full install involve in conda init, 2 step setup is required.
 
 ``` shell
