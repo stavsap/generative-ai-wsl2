@@ -17,6 +17,7 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 4. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
 5. [Text Generation Webui](#text-generation-webui-oobabooga)
 6. [MiniGPT4](#minigpt4)
+7. [Parseq]()
 
 ## Stable Diffusion Webui (AUTOMATIC1111)
 
@@ -111,3 +112,15 @@ Full Install (for clean Ubuntu 22.04 distro)
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_full.sh | bash -i
 ```
+
+
+## Parseq (Deforum parameter sequencer)
+
+Install [Parseq](https://github.com/rewbs/sd-parseq)
+
+Full Install (for clean Ubuntu 22.04 distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/parseq/install_full.sh | bash -i
+```
+
