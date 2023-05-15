@@ -6,4 +6,7 @@ sudo apt install python3.10 python3.10-venv python3-pip git python3.10-tk ffmpeg
 sudo apt install nvidia-cuda-toolkit -y
 
 git clone https://github.com/suno-ai/bark
-cd bark && pip install .
+cd bark
+python3 -m venv venv
+source venv/bin/activate
+pip install .
