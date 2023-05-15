@@ -35,6 +35,16 @@ Install (for Ubuntu 22.04 distro with basic requirements)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install.sh | bash
 ```
 
+## Parseq (Deforum parameter sequencer)
+
+Install [Parseq](https://github.com/rewbs/sd-parseq)
+
+Full Install (for clean Ubuntu 22.04 distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/parseq/install_full.sh | bash -i
+```
+
 ## Kandinsky 2.1 Webui (Kubin)
 
 Install [Kandinsky 2.1 Webui](https://github.com/seruva19/kubin)
@@ -65,6 +75,16 @@ Install (for Ubuntu 22.04 distro with basic requirements)
  
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install.sh | bash
+```
+
+## Bark (suno)
+
+Install [Bark](https://github.com/suno-ai/bark)
+
+Full Install (for clean Ubuntu 22.04 distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/bark/install_full.sh | bash
 ```
 
 ## DreamBooth Webui (Kohya SS)
@@ -113,14 +133,4 @@ Full Install (for clean Ubuntu 22.04 distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_full.sh | bash -i
 ```
 
-
-## Parseq (Deforum parameter sequencer)
-
-Install [Parseq](https://github.com/rewbs/sd-parseq)
-
-Full Install (for clean Ubuntu 22.04 distro)
-
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/parseq/install_full.sh | bash -i
-```
 
