@@ -134,6 +134,16 @@ Full Install (for clean Ubuntu 22.04 distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_full.sh | bash -i
 ```
 
+## PrivateGPT 
+
+Install [PrivateGPT]((https://github.com/imartinez/privateGPT)
+
+Full Install (for clean Ubuntu 22.04 distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/privategpt/install_full.sh | bash -i
+```
+
 ## Under exploration
 
 - [GPT4All](https://github.com/nomic-ai/gpt4all)
