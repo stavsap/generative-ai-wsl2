@@ -19,6 +19,7 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 6. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
 7. [Text Generation Webui](#text-generation-webui-oobabooga)
 8. [MiniGPT4](#minigpt4)
+9. [PrivateGPT](#privategpt)
 
 ## Stable Diffusion Webui (AUTOMATIC1111)
 
