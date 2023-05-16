@@ -10,7 +10,7 @@ wget https://huggingface.co/Pi3141/alpaca-native-7B-ggml/resolve/397e872bf4c83f4
 cd ..
 touch privateGPT/.env
 echo "PERSIST_DIRECTORY=db" >> privateGPT/.env
-echo "LLAMA_EMBEDDINGS_MODEL=$PWD/models/ggml-model-q4_0.bin" >> .env
+echo "LLAMA_EMBEDDINGS_MODEL=$PWD/models/ggml-model-q4_0.bin" >> privateGPT/.env
 echo "MODEL_TYPE=GPT4All" >> privateGPT/.env
 echo "MODEL_PATH=$PWD/models/ggml-gpt4all-j-v1.3-groovy.bin"  >> privateGPT/.env
 echo "MODEL_N_CTX=1000" >> privateGPT/.env
