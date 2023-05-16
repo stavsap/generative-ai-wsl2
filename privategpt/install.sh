@@ -1,6 +1,7 @@
 git clone https://github.com/imartinez/privateGPT.git
 cd privateGPT
 python3 -m venv venv
+source venv/bin/activate
 pip install -r requirements.txt
 cd ..
 mkdir models
