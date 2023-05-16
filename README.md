@@ -152,4 +152,5 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/priv
 - [Auto GPT](https://github.com/Significant-Gravitas/Auto-GPT)
 - [Baby AGI](https://github.com/yoheinakajima/babyagi)
 - [Vlad Automatic](https://github.com/vladmandic/automatic)
+- Transformers Agents
 
