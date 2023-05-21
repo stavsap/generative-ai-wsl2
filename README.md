@@ -32,12 +32,6 @@ Full Install (for clean Ubuntu 22.04 distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_full.sh | bash
 ```
 
-Install (for Ubuntu 22.04 distro with basic requirements)
- 
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install.sh | bash
-```
-
 ## Stable Diffusion Webui (Vlad AUTOMATIC1111)
 
 Install [Stable-Diffusion webui Vlad a1111](https://github.com/vladmandic/automatic)
@@ -68,12 +62,6 @@ Full Install (for clean Ubuntu 22.04 distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/kandinsky/install_full.sh | bash
 ```
 
-Install (for Ubuntu 22.04 distro with basic requirements)
- 
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/kandinsky/install.sh | bash
-```
-
 ## Tortoise-TTS-Fast Webui (thisserand)
 
 Install [Tortoise-TTS-Fast Webui](https://github.com/thisserand/tortoise-tts-fast.git)
@@ -82,12 +70,6 @@ Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash
-```
-
-Install (for Ubuntu 22.04 distro with basic requirements)
- 
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install.sh | bash
 ```
 
 ## Bark (suno)
@@ -110,12 +92,6 @@ Full Install (for clean Ubuntu 22.04 distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh |  bash
 ```
 
-Install (for Ubuntu 22.04 distro with basic requirements)
- 
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install.sh | bash
-```
-
 ## Text Generation Webui (Oobabooga)
 
 Install [Text Generation Webui](https://github.com/oobabooga/text-generation-webui)
@@ -124,13 +100,6 @@ Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash -i
-./run.sh
-```
-
-Install (for Ubuntu 22.04 distro with basic requirements)
- 
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install.sh | bash -i
 ./run.sh
 ```
 
