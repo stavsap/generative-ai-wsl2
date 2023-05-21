@@ -12,14 +12,15 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 
 # Table of contents
 1. [Stable Diffusion Webui](#stable-diffusion-webui-automatic1111)
-2. [Parseq](#parseq-deforum-parameter-sequencer)
-3. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
-4. [Tortoise-TTS-Fast Webui](#tortoise-tts-fast-webui-thisserand)
-5. [Bark](#bark-suno)
-6. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
-7. [Text Generation Webui](#text-generation-webui-oobabooga)
-8. [MiniGPT4](#minigpt4)
-9. [PrivateGPT](#privategpt)
+2. [Stable Diffusion Vlad Webui](#stable-diffusion-webui-automatic1111)
+3. [Parseq](#parseq-deforum-parameter-sequencer)
+4. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
+5. [Tortoise-TTS-Fast Webui](#tortoise-tts-fast-webui-thisserand)
+6. [Bark](#bark-suno)
+7. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
+8. [Text Generation Webui](#text-generation-webui-oobabooga)
+9. [MiniGPT4](#minigpt4)
+10. [PrivateGPT](#privategpt)
 
 ## Stable Diffusion Webui (AUTOMATIC1111)
 
@@ -35,6 +36,16 @@ Install (for Ubuntu 22.04 distro with basic requirements)
  
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install.sh | bash
+```
+
+## Stable Diffusion Webui (Vlad AUTOMATIC1111)
+
+Install [Stable-Diffusion webui Vlad a1111](https://github.com/vladmandic/automatic)
+
+Full Install (for clean Ubuntu 22.04 distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash
 ```
 
 ## Parseq (Deforum parameter sequencer)
