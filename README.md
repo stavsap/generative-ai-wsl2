@@ -45,7 +45,7 @@ Install [Stable-Diffusion webui Vlad a1111](https://github.com/vladmandic/automa
 Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash -i
 ```
 
 ## Parseq (Deforum parameter sequencer)
