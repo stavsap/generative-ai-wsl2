@@ -12,7 +12,7 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 
 # Table of contents
 1. [Stable Diffusion Webui](#stable-diffusion-webui-automatic1111)
-2. [Stable Diffusion Vlad Webui](#stable-diffusion-webui-automatic1111)
+2. [Stable Diffusion Vlad Webui](#stable-diffusion-webui-vlad-automatic1111)
 3. [Parseq](#parseq-deforum-parameter-sequencer)
 4. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
 5. [Tortoise-TTS-Fast Webui](#tortoise-tts-fast-webui-thisserand)
