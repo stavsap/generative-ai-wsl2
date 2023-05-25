@@ -1,3 +1,6 @@
+curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/privategpt/run.sh > run.sh
+chmod +x run.sh
+
 git clone https://github.com/imartinez/privateGPT.git
 cd privateGPT
 python3 -m venv venv
