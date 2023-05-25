@@ -7,6 +7,7 @@ cd ..
 mkdir models
 cd models
 wget https://gpt4all.io/models/ggml-gpt4all-j-v1.3-groovy.bin
+wget https://huggingface.co/TheBloke/GPT4All-13B-snoozy-GGML/resolve/main/GPT4All-13B-snoozy.ggmlv3.q4_0.bin
 cd ..
 touch privateGPT/.env
 echo "PERSIST_DIRECTORY=db" >> privateGPT/.env
