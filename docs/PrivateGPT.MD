@@ -1,4 +1,5 @@
 ## Models GGMLs
+[GPT4ALL Models](https://gpt4all.io/index.html)
 
 - [GPT4All-13B-snoozy-GGML](https://huggingface.co/TheBloke/GPT4All-13B-snoozy-GGML)
 
