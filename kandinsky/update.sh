@@ -12,7 +12,7 @@ perform_git_pull() {
         git pull
         git stash pop
         source venv/bin/activate
-        python -m pip install requierments.txt
+        pip install requierments.txt
         echo "--------------------------"
     else
         echo "Skipping non-Git folder: $1"
