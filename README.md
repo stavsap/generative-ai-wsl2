@@ -94,8 +94,6 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/drea
 
 ## Text Generation Webui (Oobabooga)
 
-Install [Text Generation Webui](https://github.com/oobabooga/text-generation-webui)
-
 Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
