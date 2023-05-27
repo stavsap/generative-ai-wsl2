@@ -1,4 +1,4 @@
-# Text Generation WebUI (oooboooga)
+# Text Generation WebUI
 
 Text generation webui to interact with local LLM models.
 
