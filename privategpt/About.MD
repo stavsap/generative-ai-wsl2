@@ -1,4 +1,4 @@
-#PrivateGPT
+# PrivateGPT
 
 a text generative AI application based on GPT4ALL. has an ability to ingest given text to embedded local DB and perform chat queries on the text.
 
