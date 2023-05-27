@@ -1,6 +1,12 @@
 # Text Generation WebUI (oooboooga)
 
-Links:
+Text generation webui to interact with local LLM models.
+
+have an ability to perform LORA training.
+
+[Text Generation Webui github](https://github.com/oobabooga/text-generation-webui)
+
+### Links:
 
 https://huggingface.co/chavinlo/gpt4-x-alpaca
 
