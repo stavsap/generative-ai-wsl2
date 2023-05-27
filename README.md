@@ -117,8 +117,6 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/mini
 
 ## PrivateGPT 
 
-Install [PrivateGPT](https://github.com/imartinez/privateGPT)
-
 Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
