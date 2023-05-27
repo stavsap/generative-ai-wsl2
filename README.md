@@ -24,7 +24,7 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 
 ## Stable Diffusion Webui (AUTOMATIC1111)
 
-Install [Stable-Diffusion webui a1111](https://github.com/AUTOMATIC1111/stable-diffusion-webui.git)
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/stable-diffusion/About.MD)
 
 Full Install (for clean Ubuntu 22.04 distro)
 
@@ -117,13 +117,13 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/mini
 
 ## PrivateGPT 
 
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/privategpt/About.MD)
+
 Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/privategpt/install_full.sh | bash -i
 ```
-
-[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/privategpt/About.MD)
 
 ## Under exploration
 
