@@ -94,14 +94,14 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/drea
 
 ## Text Generation Webui (Oobabooga)
 
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/text-gen-webui/About.MD)
+
 Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash -i
 ./run.sh
 ```
-
-[Docs](https://github.com/stavsap/generative-ai-wsl2/blob/main/docs/Text-Generation-Webui.MD)
 
 ## MiniGPT4 
 
