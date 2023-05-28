@@ -131,4 +131,5 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/priv
 - [Baby AGI](https://github.com/yoheinakajima/babyagi)
 - [Vlad Automatic](https://github.com/vladmandic/automatic)
 - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents)
+- [Insight Face](https://github.com/deepinsight/insightface)
 
