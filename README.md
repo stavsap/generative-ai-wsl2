@@ -34,7 +34,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stab
 
 ## Stable Diffusion Webui (Vlad AUTOMATIC1111)
 
-Install [Stable-Diffusion webui Vlad a1111](https://github.com/vladmandic/automatic)
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/stable-diffusion-vlad-automatic/About.MD)
 
 Full Install (for clean Ubuntu 22.04 distro)
 
