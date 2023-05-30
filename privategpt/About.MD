@@ -2,6 +2,8 @@
 
 a text generative AI application based on GPT4ALL. has an ability to ingest given text to embedded local DB and perform chat queries on the text.
 
+**CPU Only**
+
 [PrivateGPT github](https://github.com/imartinez/privateGPT)
 
 ## Models GGMLs
