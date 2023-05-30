@@ -44,7 +44,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stab
 
 ## Parseq (Deforum parameter sequencer)
 
-Install [Parseq](https://github.com/rewbs/sd-parseq)
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/parseq/About.MD)
 
 Full Install (for clean Ubuntu 22.04 distro)
 
