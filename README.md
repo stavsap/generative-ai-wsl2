@@ -133,4 +133,5 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/priv
 - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents)
 - [Insight Face](https://github.com/deepinsight/insightface)
 - [SimSwap](https://github.com/neuralchen/SimSwap/blob/main/docs/guidance/preparation.md)
+- [LocalGPT](https://github.com/PromtEngineer/localGPT)
 
