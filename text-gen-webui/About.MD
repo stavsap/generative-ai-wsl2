@@ -14,6 +14,11 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 
 [Higging Face LeaderBoard LLMs](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
+### 4 bit
+
+- https://huggingface.co/MetaIX/GPT4-X-Alpaca-30B-4bit
+- https://huggingface.co/elinas/alpaca-30b-lora-int4
+
 ## Traning TODO
 
 ### Tutorials/Reviews
