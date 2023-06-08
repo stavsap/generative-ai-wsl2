@@ -137,4 +137,5 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/priv
 - [guanaco LLM](https://github.com/camenduru/guanaco-lambda)
 - [Warp Fussion](https://github.com/Sxela/WarpFusion)
 - [LangChain](https://python.langchain.com/en/latest/index.html#welcome-to-langchain)
+- [Image Mixer](https://github.com/justinpinkney/stable-diffusion)_
 
