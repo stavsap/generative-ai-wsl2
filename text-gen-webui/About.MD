@@ -12,11 +12,9 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 
 ## Models:
 
-[gpt4-x-alpaca](https://huggingface.co/chavinlo/gpt4-x-alpaca)
+[Higging Face LeaderBoard LLMs](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
-[MPT-7B](https://huggingface.co/mosaicml/mpt-7b)
-
-[gpt4-x-alpaca-13b-native-4bit-128g](https://huggingface.co/anon8231489123/gpt4-x-alpaca-13b-native-4bit-128g) 
+## Traning TODO
 
 ### Tutorials/Reviews
 
