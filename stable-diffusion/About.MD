@@ -11,3 +11,7 @@
 ## Qrcodes embedding
 
 [reddit workflow](https://www.reddit.com/r/StableDiffusion/comments/1437qvl/a_qr_code_controlnet_txt2image_workflow/)
+
+# Usfull Info
+
+https://github.com/SupaGruen/StableDiffusion-CheatSheet
