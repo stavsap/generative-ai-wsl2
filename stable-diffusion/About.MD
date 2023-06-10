@@ -18,7 +18,7 @@
 
 - [Camera Angels](https://bootcamp.uxdesign.cc/stable-diffusion-enables-the-control-of-camera-distance-and-angles-using-prompts-53ca4d1c9981)
 
--[Torch 2.0 fix 4090](https://medium.com/@j.night/fix-your-rtx-4090s-poor-performance-in-stable-diffusion-with-new-pytorch-2-0-and-cuda-11-8-d5cb689be841)
+- [Torch 2.0 fix 4090](https://medium.com/@j.night/fix-your-rtx-4090s-poor-performance-in-stable-diffusion-with-new-pytorch-2-0-and-cuda-11-8-d5cb689be841)
 
 # Recommanded Youtube Channels
 
