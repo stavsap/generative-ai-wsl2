@@ -12,6 +12,10 @@
 
 [reddit workflow](https://www.reddit.com/r/StableDiffusion/comments/1437qvl/a_qr_code_controlnet_txt2image_workflow/)
 
+## AI Animations
+
+- [ControlNet in Deforum](https://www.youtube.com/watch?v=dJkpGdgNaE8&t=3822s)
+
 # Usfull Info
 
 - [SD Cheat Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet)
