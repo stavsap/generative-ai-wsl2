@@ -20,6 +20,8 @@
 
 - [Civit AI](https://civitai.com/)
 
+- [text2img hugging face modles](https://huggingface.co/models?pipeline_tag=text-to-image&sort=downloads)
+
 # Usfull Info
 
 - [SD Cheat Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet)
