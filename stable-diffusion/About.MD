@@ -16,6 +16,10 @@
 
 - [ControlNet in Deforum](https://www.youtube.com/watch?v=dJkpGdgNaE8&t=3822s)
 
+# Models
+
+- [Civit AI](https://civitai.com/)
+
 # Usfull Info
 
 - [SD Cheat Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet)
