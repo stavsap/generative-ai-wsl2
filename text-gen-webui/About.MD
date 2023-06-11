@@ -21,6 +21,10 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 
 ## Traning TODO
 
+## Exploring
+
+- https://huggingface.co/openaccess-ai-collective/minotaur-13b
+
 ### Tutorials/Reviews
 
 https://www.youtube.com/watch?v=_Ua6065p-Cw
