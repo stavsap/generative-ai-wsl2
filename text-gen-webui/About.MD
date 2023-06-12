@@ -24,6 +24,7 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 ## Exploring
 
 - https://huggingface.co/openaccess-ai-collective/minotaur-13b
+- https://huggingface.co/Salesforce/instructcodet5p-16b
 
 ### Tutorials/Reviews
 
