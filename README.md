@@ -125,6 +125,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/priv
 
 ## Under exploration
 
+- [AudioCraft](https://github.com/facebookresearch/audiocraft)
 - [GPT4All](https://github.com/nomic-ai/gpt4all)
 - [PrivateGPT](https://github.com/imartinez/privateGPT)
 - [Auto GPT](https://github.com/Significant-Gravitas/Auto-GPT)
