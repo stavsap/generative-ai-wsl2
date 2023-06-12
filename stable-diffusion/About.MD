@@ -34,6 +34,9 @@ recommanded extensions
 |-----------------------|------------------------|
 | Infinit Image Browser |                        |
 | Control Net           |                        |
+| Sad Talker            |                        |
+| Deforum               |                        |
+| Infinit Zoom          |                        |
 
 
 # Usfull Info
