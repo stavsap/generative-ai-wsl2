@@ -16,6 +16,10 @@
 
 - [ControlNet in Deforum](https://www.youtube.com/watch?v=dJkpGdgNaE8&t=3822s)
 
+## Animate Avatar
+
+- [SadTalker](https://github.com/OpenTalker/SadTalker/blob/main/docs/webui_extension.md)
+
 # Models
 
 - [Civit AI](https://civitai.com/)
