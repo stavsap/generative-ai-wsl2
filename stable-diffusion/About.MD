@@ -26,6 +26,16 @@
 
 - [text2img hugging face modles](https://huggingface.co/models?pipeline_tag=text-to-image&sort=downloads)
 
+# Extensions
+
+recommanded extensions
+
+| Extension             | Description            |
+|-----------------------|------------------------|
+| Infinit Image Browser |                        |
+| Control Net           |                        |
+
+
 # Usfull Info
 
 - [SD Cheat Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet)
