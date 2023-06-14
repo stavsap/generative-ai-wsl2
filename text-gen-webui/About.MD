@@ -23,6 +23,8 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 
 https://github.com/lxe/simple-llm-finetuner
 
+https://www.youtube.com/watch?app=desktop&v=LSoqyynKU9E
+
 ## Exploring
 
 - https://huggingface.co/openaccess-ai-collective/minotaur-13b
