@@ -21,6 +21,8 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 
 ## Traning TODO
 
+https://github.com/lxe/simple-llm-finetuner
+
 ## Exploring
 
 - https://huggingface.co/openaccess-ai-collective/minotaur-13b
