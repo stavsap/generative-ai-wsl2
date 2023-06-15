@@ -125,12 +125,12 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/priv
 
 ## Under exploration
 
-- [AudioCraft](https://github.com/facebookresearch/audiocraft)
+- [AudioCraft](https://github.com/facebookresearch/audiocraft) - Meta`s audio generator
+- [h2ogpt](https://github.com/h2oai/h2ogpt) - new text gen webui?
 - [GPT4All](https://github.com/nomic-ai/gpt4all)
 - [PrivateGPT](https://github.com/imartinez/privateGPT)
 - [Auto GPT](https://github.com/Significant-Gravitas/Auto-GPT)
 - [Baby AGI](https://github.com/yoheinakajima/babyagi)
-- [Vlad Automatic](https://github.com/vladmandic/automatic)
 - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents)
 - [Insight Face](https://github.com/deepinsight/insightface)
 - [SimSwap](https://github.com/neuralchen/SimSwap/blob/main/docs/guidance/preparation.md)
