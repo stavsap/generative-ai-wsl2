@@ -38,6 +38,7 @@ recommanded extensions
 | Deforum               |                        |
 | Infinit Zoom          |                        |
 | Face Swap             | [Extension link](https://github.com/Ynn/sd-webui-faceswap) |
+| Photopea | [Link](https://github.com/yankooliveira/sd-webui-photopea-embed)|
 
 # Usfull Info
 
