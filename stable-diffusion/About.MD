@@ -37,7 +37,7 @@ recommanded extensions
 | Sad Talker            |                        |
 | Deforum               |                        |
 | Infinit Zoom          |                        |
-
+| Face Swap             | [Extension link](https://github.com/Ynn/sd-webui-faceswap) |
 
 # Usfull Info
 
