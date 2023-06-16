@@ -27,6 +27,10 @@ https://huggingface.co/decapoda-research/llama-7b-hf
 
 https://www.youtube.com/watch?app=desktop&v=LSoqyynKU9E
 
+[Lora part 1](https://www.youtube.com/watch?v=7pdEK9ckDQ8)
+
+[Lora part 2](https://www.youtube.com/watch?v=LjJ8hgnTYfs)
+
 ## Exploring
 
 - https://huggingface.co/openaccess-ai-collective/minotaur-13b
