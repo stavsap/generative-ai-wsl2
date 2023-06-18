@@ -1,1 +1,1 @@
-DEBIAN_FRONTEND=noninteractive && sudo apt install nvidia-cudnn -y
+sudo DEBIAN_FRONTEND=noninteractive apt-get -yq install nvidia-cudnn
