@@ -30,15 +30,15 @@
 
 recommanded extensions
 
-| Extension             | Description            |
-|-----------------------|------------------------|
-| Infinit Image Browser |                        |
-| Control Net           |                        |
-| Sad Talker            |                        |
-| Deforum               |                        |
-| Infinit Zoom          |                        |
-| Face Swap             | [Extension link](https://github.com/Ynn/sd-webui-faceswap) |
-| Photopea | [Link](https://github.com/yankooliveira/sd-webui-photopea-embed)|
+| Extension             | Description            | Type | Link |
+|-----------------------|------------------------|-------|------|
+| Infinit Image Browser |                        | | |
+| Control Net           |                        | | |
+| Sad Talker            |                        | | |
+| Deforum               |                        | | |
+| Infinit Zoom          |                        | | |
+| Face Swap (roop)    |  | script | [link](https://github.com/s0md3v/sd-webui-roop)|
+| Photopea | photo editor like photoshop inside a1111| tab | [Link](https://github.com/yankooliveira/sd-webui-photopea-embed)|
 
 
 # Training
