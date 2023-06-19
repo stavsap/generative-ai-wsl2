@@ -12,6 +12,8 @@
 
 [reddit workflow](https://www.reddit.com/r/StableDiffusion/comments/1437qvl/a_qr_code_controlnet_txt2image_workflow/)
 
+[Tutorial](https://stable-diffusion-art.com/qr-code/)
+
 ## AI Animations
 
 - [ControlNet in Deforum](https://www.youtube.com/watch?v=dJkpGdgNaE8&t=3822s)
