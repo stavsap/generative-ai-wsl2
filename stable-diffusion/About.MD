@@ -33,12 +33,12 @@ recommanded extensions
 | Extension             | Description            | Type | Link |
 |-----------------------|------------------------|-------|------|
 | Infinit Image Browser |                        | | |
-| Control Net           |                        | | |
+| Control Net           | Ability to control difusion process | Tab | |
 | Sad Talker            |                        | | |
 | Deforum               |                        | | |
 | Infinit Zoom          |                        | | |
-| Face Swap (roop)    |  | script | [link](https://github.com/s0md3v/sd-webui-roop)|
-| Photopea | photo editor like photoshop inside a1111| tab | [Link](https://github.com/yankooliveira/sd-webui-photopea-embed)|
+| Face Swap (roop)    |  | Script | [Link](https://github.com/s0md3v/sd-webui-roop)|
+| Photopea | photo editor like photoshop inside a1111| Tab | [Link](https://github.com/yankooliveira/sd-webui-photopea-embed)|
 
 
 # Training
