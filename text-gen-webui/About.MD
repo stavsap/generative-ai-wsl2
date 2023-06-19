@@ -14,10 +14,15 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 
 [Higging Face LeaderBoard LLMs](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
 
+### Coding
+
+- [WizardCoder-15B](https://huggingface.co/WizardLM/WizardCoder-15B-V1.0)
+
 ### 4 bit
 
 - https://huggingface.co/MetaIX/GPT4-X-Alpaca-30B-4bit
 - https://huggingface.co/elinas/alpaca-30b-lora-int4
+- https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GPTQ
 
 ## Traning TODO
 
