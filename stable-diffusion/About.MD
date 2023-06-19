@@ -40,6 +40,11 @@ recommanded extensions
 | Face Swap             | [Extension link](https://github.com/Ynn/sd-webui-faceswap) |
 | Photopea | [Link](https://github.com/yankooliveira/sd-webui-photopea-embed)|
 
+
+# Training
+
+- https://github.com/victorchall/EveryDream2trainer/blob/main/doc/TRAINING.md
+
 # Usfull Info
 
 - [SD Cheat Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet)
