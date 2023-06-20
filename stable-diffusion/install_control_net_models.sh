@@ -13,6 +13,15 @@ git clone https://huggingface.co/ioclab/control_v1p_sd15_brightness
 cd control_v1p_sd15_brightness
 mv diffusion_pytorch_model.safetensors ../../stable-diffusion-webui/models/ControlNet/control_v1p_sd15_brightness.safetensors
 mv config.json ../../stable-diffusion-webui/models/ControlNet/control_v1p_sd15_brightness.json
+cd ..
+git clone https://huggingface.co/ioclab/control_v1u_sd15_illumination_webui
+cd control_v1u_sd15_illumination_webui
+mv illumination11000.safetensors ../../stable-diffusion-webui/models/ControlNet/control_v1u_sd15_illumination11000.safetensors
+mv illumination15000.safetensors ../../stable-diffusion-webui/models/ControlNet/control_v1u_sd15_illumination15000.safetensors
+mv illumination20000.safetensors ../../stable-diffusion-webui/models/ControlNet/control_v1u_sd15_illumination20000.safetensors
+cp config.json ../../stable-diffusion-webui/models/ControlNet/control_v1u_sd15_illumination11000.json
+cp config.json ../../stable-diffusion-webui/models/ControlNet/control_v1u_sd15_illumination15000.json
+mv config.json ../../stable-diffusion-webui/models/ControlNet/control_v1u_sd15_illumination20000.json
 cd ../..
 rm -rf temp
 echo "All Control Net Models Downloaded"
