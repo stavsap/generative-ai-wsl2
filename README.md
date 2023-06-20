@@ -32,6 +32,12 @@ Full Install (for clean Ubuntu 22.04 distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_full.sh | bash
 ```
 
+Download and Set Control Net 1.1 Models (Control Net must be installed first)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_control_net_models.sh | bash
+```
+
 ## Stable Diffusion Webui (Vlad AUTOMATIC1111)
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/stable-diffusion-vlad-automatic/About.MD)
