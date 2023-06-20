@@ -36,7 +36,7 @@ recommanded extensions
 |-----------------------|------------------------|-------|------|
 | Infinit Image Browser |                        | | |
 | Control Net           | Ability to control difusion process | Tab | |
-| Sad Talker            |                        | | |
+| Sad Talker            |                        | | [Link](https://github.com/OpenTalker/SadTalker/blob/main/docs/webui_extension.md) |
 | Deforum               |                        | | |
 | Infinit Zoom          |                        | | |
 | Face Swap (roop)    |  | Script | [Link](https://github.com/s0md3v/sd-webui-roop)|
