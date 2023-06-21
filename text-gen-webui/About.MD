@@ -6,6 +6,8 @@ have an ability to perform LORA training.
 
 [Text Generation Webui github](https://github.com/oobabooga/text-generation-webui)
 
+[LLM overview](https://github.com/datainsightat/introduction_llm#architecture-oflarge-language-models)
+
 ## Settings
 
 https://github.com/oobabooga/text-generation-webui/#basic-settings
