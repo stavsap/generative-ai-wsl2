@@ -10,7 +10,7 @@ have an ability to perform LORA training.
 
 - [LLM overview](https://github.com/datainsightat/introduction_llm#architecture-oflarge-language-models)
 
-- [Attention is all you need](https://arxiv.org/pdf/1706.03762.pdf)
+- [Attention is all you need paper](https://arxiv.org/pdf/1706.03762.pdf)
 
 ## Settings
 
