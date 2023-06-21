@@ -1,3 +1,4 @@
+rm -rf /home/$USER/temp
 mkdir /home/$USER/temp
 cd /home/$USER/temp
 git clone https://huggingface.co/lllyasviel/ControlNet-v1-1
@@ -22,6 +23,6 @@ mv illumination20000.safetensors /home/$USER/stable-diffusion-webui/models/Contr
 cp config.json /home/$USER/stable-diffusion-webui/models/ControlNet/control_v1u_sd15_illumination11000.json
 cp config.json /home/$USER/stable-diffusion-webui/models/ControlNet/control_v1u_sd15_illumination15000.json
 mv config.json /home/$USER/stable-diffusion-webui/models/ControlNet/control_v1u_sd15_illumination20000.json
-cd ../..
-rm -rf temp
+cd /home/$USER
+rm -rf /home/$USER/temp
 echo "All Control Net Models Downloaded"
