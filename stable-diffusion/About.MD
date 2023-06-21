@@ -10,7 +10,9 @@
 
 ## Qrcodes embedding
 
-[reddit workflow](https://www.reddit.com/r/StableDiffusion/comments/1437qvl/a_qr_code_controlnet_txt2image_workflow/)
+[reddit txt2img workflow](https://www.reddit.com/r/StableDiffusion/comments/1437qvl/a_qr_code_controlnet_txt2image_workflow/)
+
+[reddit img2img workflow](https://www.reddit.com/r/StableDiffusion/comments/1445ncd/my_try_on_qr_codes_controlnet_img2img_stable/)
 
 [Tutorial](https://stable-diffusion-art.com/qr-code/)
 
