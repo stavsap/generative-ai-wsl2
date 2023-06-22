@@ -30,7 +30,14 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 - https://huggingface.co/elinas/alpaca-30b-lora-int4
 - https://huggingface.co/TheBloke/WizardCoder-15B-1.0-GPTQ
 
+## Local embedding DBs
+
+[Chroma](https://github.com/chroma-core/chroma)
+
+
 ## Traning TODO
+
+NOTE: local training is a very heavy operation. consider using embedding db + langchian.
 
 https://github.com/lxe/simple-llm-finetuner
 
