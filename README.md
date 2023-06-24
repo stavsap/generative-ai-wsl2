@@ -133,16 +133,13 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/priv
 
 - [AudioCraft](https://github.com/facebookresearch/audiocraft) - Meta`s audio generator
 - [h2ogpt](https://github.com/h2oai/h2ogpt) - new text gen webui?
-- [GPT4All](https://github.com/nomic-ai/gpt4all)
-- [PrivateGPT](https://github.com/imartinez/privateGPT)
 - [Auto GPT](https://github.com/Significant-Gravitas/Auto-GPT)
 - [Baby AGI](https://github.com/yoheinakajima/babyagi)
 - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents)
 - [Insight Face](https://github.com/deepinsight/insightface)
 - [SimSwap](https://github.com/neuralchen/SimSwap/blob/main/docs/guidance/preparation.md)
 - [LocalGPT](https://github.com/PromtEngineer/localGPT)
-- [guanaco LLM](https://github.com/camenduru/guanaco-lambda)
-- [Warp Fussion](https://github.com/Sxela/WarpFusion)
 - [LangChain](https://python.langchain.com/en/latest/index.html#welcome-to-langchain)
 - [Image Mixer](https://github.com/justinpinkney/stable-diffusion)_
+- [Whisper speach2text](https://github.com/openai/whisper)
 
