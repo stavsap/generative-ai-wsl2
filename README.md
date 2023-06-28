@@ -136,10 +136,10 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/priv
 - [Auto GPT](https://github.com/Significant-Gravitas/Auto-GPT)
 - [Baby AGI](https://github.com/yoheinakajima/babyagi)
 - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents)
-- [Insight Face](https://github.com/deepinsight/insightface)
 - [SimSwap](https://github.com/neuralchen/SimSwap/blob/main/docs/guidance/preparation.md)
 - [LocalGPT](https://github.com/PromtEngineer/localGPT)
 - [LangChain](https://python.langchain.com/en/latest/index.html#welcome-to-langchain)
 - [Image Mixer](https://github.com/justinpinkney/stable-diffusion)_
 - [Whisper speach2text](https://github.com/openai/whisper)
+- [Drag Gen](https://github.com/XingangPan/DragGAN)
 
