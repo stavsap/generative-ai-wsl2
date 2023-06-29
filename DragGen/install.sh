@@ -4,7 +4,7 @@ echo "========================="
 
 git clone https://github.com/XingangPan/DragGAN.git
 cd DragGAN
-sudo apt install gcc-10 g++-10
+sudo apt install gcc-10 g++-10 -y
 export CC=/usr/bin/gcc-10
 export CXX=/usr/bin/g++-10
 export CUDA_ROOT=/usr/local/cuda
