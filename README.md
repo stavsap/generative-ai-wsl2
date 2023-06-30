@@ -131,7 +131,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/priv
 
 ## DragGAN 
 
-[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/DragGen/ABOUT.MD)
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/DragGen/ABOUT.md)
 
 Full Install (for clean Ubuntu 22.04 distro)
 
