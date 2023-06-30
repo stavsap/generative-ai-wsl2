@@ -12,15 +12,15 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 
 # Table of contents
 1. [Stable Diffusion Webui](#stable-diffusion-webui-automatic1111)
-2. [Stable Diffusion Vlad Webui](#stable-diffusion-webui-vlad-automatic1111)
-3. [Parseq](#parseq-deforum-parameter-sequencer)
-4. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
-5. [Tortoise-TTS-Fast Webui](#tortoise-tts-fast-webui-thisserand)
-6. [Bark](#bark-suno)
-7. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
-8. [Text Generation Webui](#text-generation-webui-oobabooga)
-9. [MiniGPT4](#minigpt4)
-10. [DragGAN](#draggan)
+2. [Text Generation Webui](#text-generation-webui-oobabooga)
+3. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
+4. [Stable Diffusion Vlad Webui](#stable-diffusion-webui-vlad-automatic1111)
+5. [Parseq](#parseq-deforum-parameter-sequencer)
+6. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
+7. [Tortoise-TTS-Fast Webui](#tortoise-tts-fast-webui-thisserand)
+8. [Bark](#bark-suno)
+10. [MiniGPT4](#minigpt4)
+11. [DragGAN](#draggan)
 
 ## Stable Diffusion Webui (AUTOMATIC1111)
 
@@ -36,6 +36,27 @@ Download and Set Control Net 1.1 Models (Control Net must be installed first)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_control_net_models.sh | bash
+```
+
+## Text Generation Webui (Oobabooga)
+
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/text-gen-webui/About.MD)
+
+Full Install (for clean Ubuntu 22.04 distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash -i
+./run.sh
+```
+
+## DreamBooth Webui (Kohya SS)
+
+Install [DreamBooth Webui](https://github.com/bmaltais/kohya_ss)
+
+Full Install (for clean Ubuntu 22.04 distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh |  bash
 ```
 
 ## Stable Diffusion Webui (Vlad AUTOMATIC1111)
@@ -86,27 +107,6 @@ Full Install (for clean Ubuntu 22.04 distro)
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/bark/install_full.sh | bash
-```
-
-## DreamBooth Webui (Kohya SS)
-
-Install [DreamBooth Webui](https://github.com/bmaltais/kohya_ss)
-
-Full Install (for clean Ubuntu 22.04 distro)
-
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh |  bash
-```
-
-## Text Generation Webui (Oobabooga)
-
-[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/text-gen-webui/About.MD)
-
-Full Install (for clean Ubuntu 22.04 distro)
-
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash -i
-./run.sh
 ```
 
 ## MiniGPT4 
