@@ -1,3 +1,3 @@
 cd /home/$USER/DragGAN
 source venv/bin/activate
-python 
+python visualizer_drag_gradio.py 
