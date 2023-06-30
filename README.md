@@ -119,16 +119,6 @@ Full Install (for clean Ubuntu 22.04 distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_full.sh | bash -i
 ```
 
-## PrivateGPT 
-
-[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/privategpt/About.MD)
-
-Full Install (for clean Ubuntu 22.04 distro)
-
-``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/privategpt/install_full.sh | bash -i
-```
-
 ## DragGAN 
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/DragGen/ABOUT.md)
@@ -139,7 +129,6 @@ Full Install (for clean Ubuntu 22.04 distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/DragGen/install_full.sh | bash -i
 ```
 
-
 ## Under exploration
 
 - [AudioCraft](https://github.com/facebookresearch/audiocraft) - Meta`s audio generator
@@ -148,9 +137,5 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Drag
 - [Baby AGI](https://github.com/yoheinakajima/babyagi)
 - [Transformers Agents](https://huggingface.co/docs/transformers/transformers_agents)
 - [SimSwap](https://github.com/neuralchen/SimSwap/blob/main/docs/guidance/preparation.md)
-- [LocalGPT](https://github.com/PromtEngineer/localGPT)
-- [LangChain](https://python.langchain.com/en/latest/index.html#welcome-to-langchain)
 - [Image Mixer](https://github.com/justinpinkney/stable-diffusion)_
 - [Whisper speach2text](https://github.com/openai/whisper)
-- [Drag Gen](https://github.com/XingangPan/DragGAN)
-
