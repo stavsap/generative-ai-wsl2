@@ -21,4 +21,4 @@ perform_git_pull() {
     cd - >/dev/null
 }
 
-perform_git_pull "/home/$USER/DragGan"
+perform_git_pull "/home/$USER/DragGAN"
