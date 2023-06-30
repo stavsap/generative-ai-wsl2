@@ -129,6 +129,17 @@ Full Install (for clean Ubuntu 22.04 distro)
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/privategpt/install_full.sh | bash -i
 ```
 
+## DragGAN 
+
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/DragGan/About.MD)
+
+Full Install (for clean Ubuntu 22.04 distro)
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/DragGan/install_full.sh | bash -i
+```
+
+
 ## Under exploration
 
 - [AudioCraft](https://github.com/facebookresearch/audiocraft) - Meta`s audio generator
