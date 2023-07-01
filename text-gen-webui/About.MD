@@ -18,8 +18,8 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 
 ## Models:
 
-[Higging Face Leader Board LLMs](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
-[Alpaca Eval Leader Board LLMs](https://tatsu-lab.github.io/alpaca_eval/)
+- [Higging Face Leader Board LLMs](https://huggingface.co/spaces/HuggingFaceH4/open_llm_leaderboard)
+- [Alpaca Eval Leader Board LLMs](https://tatsu-lab.github.io/alpaca_eval/)
 
 ### Coding
 
@@ -34,7 +34,6 @@ https://github.com/oobabooga/text-generation-webui/#basic-settings
 ## Local embedding DBs
 
 [Chroma](https://github.com/chroma-core/chroma)
-
 
 ## Traning TODO
 
