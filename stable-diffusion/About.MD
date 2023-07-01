@@ -6,6 +6,8 @@
 
 [Stable Diffusion on Reddit](https://www.reddit.com/r/StableDiffusion/)
 
+[Cheat Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet)
+
 # Use Cases
 
 ## Qrcodes embedding
