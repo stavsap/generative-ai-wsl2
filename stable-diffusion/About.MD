@@ -20,11 +20,21 @@
 
 - [ControlNet in Deforum](https://www.youtube.com/watch?v=dJkpGdgNaE8&t=3822s)
 
+## Infinite Zoom in / Zoom out
+
+ability to make video of infinte zoom in or zoom out
+
 ## Animate Avatar
 
 - [SadTalker](https://github.com/OpenTalker/SadTalker/blob/main/docs/webui_extension.md)
 
+## Face Swap
+
+ability to replace face on existing/generated images.
+
 # Prompts
+
+Importent part is prompting
 
 [Prompt Hero](https://prompthero.com/stable-diffusion-prompts)
 
