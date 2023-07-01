@@ -12,6 +12,12 @@ have an ability to perform LORA training.
 
 - [Attention is all you need paper](https://arxiv.org/pdf/1706.03762.pdf)
 
+- [8-bit explained](https://huggingface.co/blog/hf-bitsandbytes-integration)
+
+- [4-bit explained](https://huggingface.co/blog/4bit-transformers-bitsandbytes)
+
+- [Quantization](https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu)
+
 ## Settings
 
 https://github.com/oobabooga/text-generation-webui/#basic-settings
@@ -57,3 +63,4 @@ https://www.youtube.com/watch?app=desktop&v=LSoqyynKU9E
 ### Tutorials/Reviews
 
 https://www.youtube.com/watch?v=_Ua6065p-Cw
+
