@@ -38,11 +38,50 @@ Importent part is prompting
 
 [Prompt Hero](https://prompthero.com/stable-diffusion-prompts)
 
+## Negative Promots
+
+Realistic Vision:
+
+(deformed iris, deformed pupils, semi-realistic, cgi, 3d, render, sketch, cartoon, drawing, anime:1.4), text, close up, cropped, out of frame, worst quality, low quality, jpeg artifacts, ugly, duplicate, morbid, mutilated, extra fingers, mutated hands, poorly drawn hands, poorly drawn face, mutation, deformed, blurry, dehydrated, bad anatomy, bad proportions, extra limbs, cloned face, disfigured, gross proportions, malformed limbs, missing arms, missing legs, extra arms, extra legs, fused fingers, too many fingers, long neck
+
+Rev Animated:
+
+(deformed iris, deformed pupils, bad eyes, semi-realistic:1.4) (bad-image-v2-39000, bad_prompt_version2, bad-hands-5, EasyNegative, NG_DeepNegative_V1_4T, bad-artist-anime:0.7),(worst quality, low quality:1.3), (depth of field, blurry:1.2), (greyscale, monochrome:1.1), nose, cropped, lowres, text, jpeg artifacts, signature, watermark, username, blurry, artist name, trademark, watermark, title, (tan, muscular, loli, petite, child, infant, toddlers, chibi, sd character:1.1), multiple view, Reference sheet, long neck
+
+Info: The Rev Animated Negative Prompt includes the following Negative Embeddings:
+
+bad-image-v2-39000
+
+https://huggingface.co/Xynon/models/tree/main/experimentals/TI
+
+bad_prompt_version2
+
+https://huggingface.co/datasets/Nerfgun3/bad_prompt/tree/main
+
+bad-hands-5
+
+https://huggingface.co/yesyeahvh/bad-hands-5/tree/main
+
+EasyNegative
+
+https://huggingface.co/datasets/gsdf/EasyNegative/tree/main
+
+NG_DeepNegative_V1_4T
+
+https://civitai.com/models/4629/deep-negative-v1x
+
+bad-artist-anime
+
+https://huggingface.co/nick-x-hacker/bad-artist/tree/main
+
+
 # Models
 
 - [Civit AI](https://civitai.com/)
 
 - [text2img hugging face modles](https://huggingface.co/models?pipeline_tag=text-to-image&sort=downloads)
+
+- [Lighting Based ControlNet](https://civitai.com/models/80536?modelVersionId=85428)
 
 # Extensions
 
