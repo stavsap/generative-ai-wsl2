@@ -26,6 +26,10 @@
 
 - [SadTalker](https://github.com/OpenTalker/SadTalker/blob/main/docs/webui_extension.md)
 
+# Prompts
+
+[Prompt Hero](https://prompthero.com/stable-diffusion-prompts)
+
 # Models
 
 - [Civit AI](https://civitai.com/)
