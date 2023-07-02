@@ -8,7 +8,13 @@ have an ability to perform LORA training.
 
 [Text Generation Webui docs](https://github.com/oobabooga/text-generation-webui/tree/main/docs)
 
+## Settings
+
+https://github.com/oobabooga/text-generation-webui/#basic-settings
+
 # Study
+
+## Overviews
 
 - [LLM overview](https://github.com/datainsightat/introduction_llm#architecture-oflarge-language-models)
 
@@ -19,10 +25,6 @@ have an ability to perform LORA training.
 - [4-bit explained](https://huggingface.co/blog/4bit-transformers-bitsandbytes)
 
 - [Quantization](https://huggingface.co/docs/transformers/main/en/main_classes/quantization#offload-between-cpu-and-gpu)
-
-## Settings
-
-https://github.com/oobabooga/text-generation-webui/#basic-settings
 
 ## Models:
 
@@ -56,11 +58,6 @@ https://www.youtube.com/watch?app=desktop&v=LSoqyynKU9E
 [Lora part 1](https://www.youtube.com/watch?v=7pdEK9ckDQ8)
 
 [Lora part 2](https://www.youtube.com/watch?v=LjJ8hgnTYfs)
-
-## Exploring
-
-- https://huggingface.co/openaccess-ai-collective/minotaur-13b
-- https://huggingface.co/Salesforce/instructcodet5p-16b
 
 ### Tutorials/Reviews
 
