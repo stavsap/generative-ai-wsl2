@@ -8,6 +8,8 @@ have an ability to perform LORA training.
 
 [Text Generation Webui docs](https://github.com/oobabooga/text-generation-webui/tree/main/docs)
 
+[Text Generation Webui extensions](https://github.com/oobabooga/text-generation-webui-extensions)
+
 ## Settings
 
 https://github.com/oobabooga/text-generation-webui/#basic-settings
