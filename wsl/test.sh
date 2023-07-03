@@ -16,3 +16,5 @@ nvidia-smi
 
 conda create -n textgen python=3.10.9
 conda activate textgen
+
+echo "ALL DONE\n\n"
