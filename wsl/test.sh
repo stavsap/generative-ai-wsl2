@@ -16,5 +16,6 @@ nvidia-smi
 
 conda create -n textgen python=3.10.9
 conda activate textgen
+pip install bitsandbytes
 
 echo "ALL DONE\n\n"
