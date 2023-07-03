@@ -9,9 +9,10 @@ echo 'export CUDA_HOME=/home/$USER/miniconda3/envs/textgen/pkgs/cuda-toolkit/' >
 echo 'export PATH="$PATH:/home/$USER/miniconda3/bin/"' >> .bashrc
 echo 'export LD_LIBRARY_PATH="/usr/lib/wsl/lib:/home/$USER/miniconda3/lib/"' >> .bashrc
 
-source .bashrc
-conda init bash
+/home/$USER/miniconda3/bin/ init bash
+
 source .bashrc
 nvidia-smi
 
-/home/$USER/miniconda3/bin/ init bash
+conda create -n textgen python=3.10.9
+conda activate textgen
