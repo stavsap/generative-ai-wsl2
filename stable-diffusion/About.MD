@@ -38,6 +38,8 @@ Importent part is prompting
 
 [Prompt Hero](https://prompthero.com/stable-diffusion-prompts)
 
+[full-feature-character-prompts-fantasy](https://civitai.com/models/45448/full-feature-character-prompts-fantasy)
+
 ## Negative Promots
 
 Realistic Vision:
