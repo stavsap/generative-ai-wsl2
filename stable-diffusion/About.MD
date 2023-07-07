@@ -38,7 +38,9 @@ Importent part is prompting
 
 [Prompt Hero](https://prompthero.com/stable-diffusion-prompts)
 
-[full-feature-character-prompts-fantasy](https://civitai.com/models/45448/full-feature-character-prompts-fantasy)
+- [full-feature-character-prompts-fantasy](https://civitai.com/models/45448/full-feature-character-prompts-fantasy)
+
+- [science-fiction-autoprompt-awesome-prompt-lists](https://civitai.com/models/53343/science-fiction-autoprompt-awesome-prompt-lists)
 
 ## Negative Promots
 
