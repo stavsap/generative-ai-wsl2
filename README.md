@@ -13,12 +13,13 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 # Table of contents
 1. [Stable Diffusion Webui](#stable-diffusion-webui-automatic1111)
 2. [Text Generation Webui](#text-generation-webui-oobabooga)
-3. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
-4. [Stable Diffusion Vlad Webui](#stable-diffusion-webui-vlad-automatic1111)
-5. [Parseq](#parseq-deforum-parameter-sequencer)
-6. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
-7. [Tortoise-TTS-Fast Webui](#tortoise-tts-fast-webui-thisserand)
-8. [Bark](#bark-suno)
+3. [Compfy UI](#compfy-ui)
+4. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
+5. [Stable Diffusion Vlad Webui](#stable-diffusion-webui-vlad-automatic1111)
+6. [Parseq](#parseq-deforum-parameter-sequencer)
+7. [Kandinsky 2.1](#kandinsky-21-webui-kubin)
+8. [Tortoise-TTS-Fast Webui](#tortoise-tts-fast-webui-thisserand)
+9. [Bark](#bark-suno)
 10. [MiniGPT4](#minigpt4)
 11. [DragGAN](#draggan)
 
@@ -47,6 +48,16 @@ Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash -i
 ./run.sh
+```
+
+## Compfy UI
+
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/compfyui/About.md)
+
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/install_full.sh |  bash
 ```
 
 ## DreamBooth Webui (Kohya SS)
