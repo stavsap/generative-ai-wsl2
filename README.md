@@ -6,7 +6,7 @@ An easy to setup commands to run open-source generative AI projects inside WSL (
 
 The provided scripts are for **Ubuntu 22.04** WSL Distro.
 
-Currently the install is taargeted for Nvidia cards only.
+Currently the install is for Nvidia cards only.
 
 New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/WSL-2.0)
 
