@@ -26,7 +26,7 @@ New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/stable-diffusion/About.MD)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_full.sh | bash
@@ -42,7 +42,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stab
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/text-gen-webui/About.MD)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash -i
@@ -53,7 +53,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text
 
 Install [DreamBooth Webui](https://github.com/bmaltais/kohya_ss)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh |  bash
@@ -63,7 +63,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/drea
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/stable-diffusion-vlad-automatic/About.MD)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash -i
@@ -73,7 +73,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stab
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/parseq/About.MD)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/parseq/install_full.sh | bash -i
@@ -83,7 +83,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/pars
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/kandinsky/About.MD)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/kandinsky/install_full.sh | bash
@@ -93,7 +93,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/kand
 
 Install [Tortoise-TTS-Fast Webui](https://github.com/thisserand/tortoise-tts-fast.git)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash
@@ -103,7 +103,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tort
 
 Install [Bark](https://github.com/suno-ai/bark)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/bark/install_full.sh | bash
@@ -113,7 +113,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/bark
 
 Install [MiniGPT4](https://github.com/Vision-CAIR/MiniGPT-4.git)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/minigpt4/install_full.sh | bash -i
@@ -123,7 +123,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/mini
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/DragGen/ABOUT.md)
 
-Full Install (for clean Ubuntu 22.04 distro)
+Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/DragGen/install_full.sh | bash -i
