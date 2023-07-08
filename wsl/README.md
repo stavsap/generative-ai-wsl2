@@ -10,3 +10,5 @@ Open cmd in desired folder, then copy the following commands:
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/create_wsl_base.bat -o create_wsl_base.bat
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/create_wsl_from_base.bat -o create_wsl_from_base.bat
 ```
+
+*note: curl is supported in windows 11.
