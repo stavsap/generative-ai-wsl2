@@ -1,6 +1,6 @@
 @echo off
 
-set base_tar=ubuntu-20-04-base.tar
+set base_tar=ubuntu-22-04-base.tar
 
 echo Provision new wsl instance from '%base_tar%'
 
