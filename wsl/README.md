@@ -9,7 +9,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/create_wsl_from_base.bat -o create_wsl_from_base.bat
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/gen-ai-install-menu.bat -o gen-ai-install-menu.bat
 ```
-*note: curl is supported in windows 11.
+- **note**: curl is supported in windows 11.
 
 ## Create base Image
 
