@@ -1,7 +1,4 @@
-cd one-click-installers
-git stash
-git pull
-git stash pop
+cd /home/$USER/one-click-installers
 ./update_linux.sh
 cd ..
-echo "All Complete"
+echo "\nAll Complete\n"
