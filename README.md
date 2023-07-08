@@ -45,7 +45,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stab
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/text-gen-webui/About.MD)
 
-Full install for clean Ubuntu 22.04 distro and Nvidia cards. select 'A" for NVIDIA.
+Full install for clean Ubuntu 22.04 distro and Nvidia cards. select 'A' for NVIDIA.
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh |  bash -i
