@@ -30,4 +30,4 @@ next run '**gen-ai-install-menu.bat**' and select the desired gen ai solution.
 
 run '**run-ws.bat**' and selectvfrom a list, the desired wsl instance to run.
 
-
+for UI based solution, this [tool]() is recommended.
