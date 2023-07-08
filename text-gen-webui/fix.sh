@@ -6,5 +6,5 @@ conda activate "$INSTALL_ENV_DIR"
 pip install einops
 pip install xformers
 pip install bitsandbytes
-conda install cudatoolkit
+conda install cudatoolkit -y
 cd ..
