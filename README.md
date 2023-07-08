@@ -52,6 +52,12 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text
 ./run.sh
 ```
 
+If a warning is encountered in the log indicating that bitandbytes is compiled with CPU only, run the command below to resolve the issue:
+
+``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/fix.sh | bash
+```
+
 ## Compfy UI
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/compfyui/About.md)
