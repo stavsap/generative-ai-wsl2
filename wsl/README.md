@@ -6,7 +6,7 @@ Download the raw [gen-ai-wsl.bat](https://github.com/stavsap/generative-ai-wsl2/
 
 **Or**
 
-Open cmd in desired folder (SSD is highly recommended), then copy paste the following commands:
+Open cmd in desired folder (SSD is highly recommended), then copy paste the following command:
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/gen-ai-wsl.bat -o gen-ai-wsl.bat
