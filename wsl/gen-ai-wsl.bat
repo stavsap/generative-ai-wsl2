@@ -73,7 +73,7 @@ set /p selection=Select:
 
 if %selection% == A (
 	set folder_name=stable-difussion-webui
-	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_full.sh | bash; exec bash;"
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_full.sh | bash ; exec bash ;"
 )
 
 if %selection% == B (
