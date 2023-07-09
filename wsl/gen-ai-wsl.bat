@@ -68,7 +68,8 @@ echo A) Stable Diffusion (a1111)
 echo B) Stable Diffusion (Vlad Automatic)
 echo C) Text Gen Webui (oobabooga)
 echo D) Comfy UI
-echo E) Dreambooth (kahoya SS)
+echo E) Dreambooth (Kohya SS)
+echo F) Tortoise-TTS-Fast
 echo:
 
 set /p selection=Select: 
@@ -76,31 +77,45 @@ set /p selection=Select:
 if %selection% == A (
 	set folder_name=stable-difussion-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_full.sh | bash ; exec bash ;"
+	goto selected
 )
 
 if %selection% == B (
 	set folder_name=stable-difussion-vlad
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash ; exec bash ;"
+	goto selected
 )
 
 if %selection% == C (
 	set folder_name=text-generation-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh | bash -i ; ./run.sh ; exec bash ;"
+	goto selected
 ) 
 
 if %selection% == D (
 	set folder_name=compfy-ui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/install_full.sh | bash ; ./run.sh ; exec bash ;"
+	goto selected
 ) 
+
+
 if %selection% == E (
 	set folder_name=dreambooth-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh | bash ; ./run.sh ; exec bash ;"
+	goto selected
+) 
+
+if %selection% == F (
+	set folder_name=dreambooth-webui
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash ; ./run.sh ; exec bash ;"
+	goto selected
 ) else (
 	echo:
 	echo Unsupported selection '%selection%'.
 	goto install
 )
 
+:selected
 echo:
 set /p user_name=Enter WSL (base image) username:
 
