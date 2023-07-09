@@ -50,7 +50,9 @@ if not exist "%folder_name%" (
 ) else (
     echo Folder '%folder_name%' already exists.
 )
-set wsl_name = %folder_name%-%context%
+
+set wsl_name=%folder_name%-%context%
+
 wsl --import %wsl_name% .\%folder_name% %base_tar%
 timeout 5 /nobreak
 start wsl -d %wsl_name% -u %user_name% --cd /home/%user_name% -e bash -lic %command%
