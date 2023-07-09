@@ -99,7 +99,6 @@ if %selection% == D (
 	goto selected
 ) 
 
-
 if %selection% == E (
 	set folder_name=dreambooth-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh | bash ; exec bash ;"
@@ -108,14 +107,19 @@ if %selection% == E (
 
 
 if %selection% == F (
-	set folder_name=dreambooth-webui
+	set folder_name=tortoise-tts
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash ;  exec bash ;"
 	goto selected
 ) 
 
 if %selection% == G (
-	set folder_name=dreambooth-webui
+	set folder_name=bark
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/bark/install_full.sh | bash ; exec bash ;"
+	goto selected
+
+) if %selection% == H (
+	set folder_name=parseq
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/parseq/install_full.sh | bash -i ; exec bash ;"
 	goto selected
 ) else (
 	echo:
