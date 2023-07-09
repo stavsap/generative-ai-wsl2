@@ -5,30 +5,44 @@ set base_tar=ubuntu-22-04-base.tar
 
 set context=gen-ai 
 
+echo:
+echo Welcome to Gen AI Manager.
+echo:
+
 if not exist "%base_tar%" (
-	echo will now install '%linux_distro%' and provision base image.
+	echo No base image found. 
+	echo Install '%linux_distro%' wsl distro and provision base image. after setting username and password type 'exit' in the cli to get back here.
 	start wsl --install %linux_distro%
-	echo after setting up the username and password
 	PAUSE
-	echo exporting '%linux_distro%' to '%base_tar%'
+	echo Exporting '%linux_distro%' to '%base_tar%'.
 	wsl --export %linux_distro% %base_tar%
-	echo all complete
+	wsl -t %linux_distro%
+	wsl --unregister %linux_distro%
+	echo:
+	echo Provision base image complete!
+	echo:
 	PAUSE 
 )
 
 echo Select gen ai to install:
+echo:
 echo A) Stable Diffusion a1111
 echo B) Text Gen Webui
+
 set /p selection=Select: 
+
 if %selection% == A (
 	set folder_name=stable-difussion-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_full.sh | bash; exec bash;"
 )
+
 if %selection% == B (
 	set folder_name=text-generation-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh | bash -i ; ./run.sh ; exec bash ;"
 )
-set /p user_name=- Enter user name:
+
+echo:
+set /p user_name=Enter WSL (base image) username:
 
 if not exist "%folder_name%" (
     mkdir "%folder_name%"
