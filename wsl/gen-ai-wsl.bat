@@ -85,7 +85,7 @@ if %selection% == A (
 
 if %selection% == B (
 	set folder_name=stable-difussion-vlad
-	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash ; exec bash ;"
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash ; ./run.sh ; exec bash ;"
 	goto selected
 )
 
