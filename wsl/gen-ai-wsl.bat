@@ -31,28 +31,28 @@ if not exist "%base_tar%" (
 :main
 echo:
 echo what you want to do?
-echo A) Install
-echo B) Run
-echo C) Update
-echo D) Delete
-echo E) Exit
+echo 1) Install
+echo 2) Run
+echo 3) Update
+echo 4) Delete
+echo 5) Exit
 echo:
 
 set /p selection=Select:
 
-if %selection% == A (
+if %selection% == 1 (
 	goto install
 )
-if %selection% == B (
+if %selection% == 2 (
 	goto run
 )
-if %selection% == C (
+if %selection% == 3 (
 	goto update
 )
-if %selection% == D (
+if %selection% == 4 (
 	goto delete
 )
-if %selection% == E (
+if %selection% == 5 (
 	goto exit
 ) else (
 	echo:
@@ -64,68 +64,68 @@ if %selection% == E (
 echo:
 echo Select Gen Ai to install:
 echo:
-echo A) Stable Diffusion (a1111)
-echo B) Stable Diffusion (Vlad Automatic)
-echo C) Text Gen Webui (oobabooga)
-echo D) Comfy UI
-echo E) Dreambooth (Kohya SS)
-echo F) Tortoise-TTS-Fast
-echo G) Bark
-echo H) parseq (deforum sequancer)
-echo J) DragGAN
+echo 1) Stable Diffusion (a1111)
+echo 2) Stable Diffusion (Vlad Automatic)
+echo 3) Text Gen Webui (oobabooga)
+echo 4) Comfy UI
+echo 5) Dreambooth (Kohya SS)
+echo 6) Tortoise-TTS-Fast
+echo 7) Bark
+echo 8) parseq (deforum sequancer)
+echo 9) DragGAN
 echo:
 
 set /p selection=Select: 
 
-if %selection% == A (
+if %selection% == 1 (
 	set folder_name=stable-difussion-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion/install_full.sh | bash ; exec bash ;"
 	goto selected
 )
 
-if %selection% == B (
+if %selection% == 2 (
 	set folder_name=stable-difussion-vlad
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash ; ./run.sh ; exec bash ;"
 	goto selected
 )
 
-if %selection% == C (
+if %selection% == 3 (
 	set folder_name=text-generation-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh | bash -i ; ./run.sh ; exec bash ;"
 	goto selected
 ) 
 
-if %selection% == D (
+if %selection% == 4 (
 	set folder_name=compfy-ui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/install_full.sh | bash ; exec bash ;"
 	goto selected
 ) 
 
-if %selection% == E (
+if %selection% == 5 (
 	set folder_name=dreambooth-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh | bash ; exec bash ;"
 	goto selected
 ) 
 
 
-if %selection% == F (
+if %selection% == 6 (
 	set folder_name=tortoise-tts
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash ;  exec bash ;"
 	goto selected
 ) 
 
-if %selection% == G (
+if %selection% == 7 (
 	set folder_name=bark
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/bark/install_full.sh | bash ; exec bash ;"
 	goto selected
 
-) if %selection% == H (
+) if %selection% == 8 (
 	set folder_name=parseq
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/parseq/install_full.sh | bash -i ; exec bash ;"
 	goto selected
 ) 
 
-if %selection% == J (
+if %selection% == 9 (
 	set folder_name=parseq
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/DragGen/install_full.sh | bash -i ; exec bash ;"
 	goto selected
