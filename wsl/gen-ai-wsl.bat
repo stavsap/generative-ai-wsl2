@@ -119,7 +119,9 @@ if %selection% == 7 (
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/bark/install_full.sh | bash ; exec bash ;"
 	goto selected
 
-) if %selection% == 8 (
+) 
+
+if %selection% == 8 (
 	set folder_name=parseq
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/parseq/install_full.sh | bash -i ; exec bash ;"
 	goto selected
