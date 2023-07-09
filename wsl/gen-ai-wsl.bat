@@ -65,7 +65,8 @@ echo:
 echo Select Gen Ai to install:
 echo:
 echo A) Stable Diffusion (a1111)
-echo B) Text Gen Webui (oobabooga)
+echo B) Stable Diffusion (Vlad Automatic)
+echo C) Text Gen Webui (oobabooga)
 echo:
 
 set /p selection=Select: 
@@ -76,6 +77,11 @@ if %selection% == A (
 )
 
 if %selection% == B (
+	set folder_name=stable-difussion-vlad
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash ; exec bash ;"
+)
+
+if %selection% == C (
 	set folder_name=text-generation-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh | bash -i ; ./run.sh ; exec bash ;"
 )
