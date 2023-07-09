@@ -67,6 +67,7 @@ echo:
 echo A) Stable Diffusion (a1111)
 echo B) Stable Diffusion (Vlad Automatic)
 echo C) Text Gen Webui (oobabooga)
+echo D) Comfy UI
 echo:
 
 set /p selection=Select: 
@@ -84,6 +85,11 @@ if %selection% == B (
 if %selection% == C (
 	set folder_name=text-generation-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh | bash -i ; ./run.sh ; exec bash ;"
+) 
+
+if %selection% == D (
+	set folder_name=compfy-ui
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/install_full.sh | bash ; ./run.sh ; exec bash ;"
 ) else (
 	echo:
 	echo Unsupported selection '%selection%'.
