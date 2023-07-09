@@ -5,6 +5,7 @@
 Open cmd in desired folder (SSD is highly recommended), then copy paste the following commands:
 
 ``` shell
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/install_ubuntu.bat -o install_ubuntu.bat
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/create_wsl_base.bat -o create_wsl_base.bat
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/create_wsl_from_base.bat -o create_wsl_from_base.bat
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/gen-ai-install-menu.bat -o gen-ai-install-menu.bat
