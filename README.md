@@ -87,7 +87,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/drea
 Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash -i
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install_full.sh | bash
 ```
 
 ## Parseq (Deforum parameter sequencer)
