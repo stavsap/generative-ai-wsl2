@@ -95,21 +95,21 @@ if %selection% == C (
 
 if %selection% == D (
 	set folder_name=compfy-ui
-	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/install_full.sh | bash ; ./run.sh ; exec bash ;"
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/install_full.sh | bash ; exec bash ;"
 	goto selected
 ) 
 
 
 if %selection% == E (
 	set folder_name=dreambooth-webui
-	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh | bash ; ./run.sh ; exec bash ;"
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/dreambooth/install_full.sh | bash ; exec bash ;"
 	goto selected
 ) 
 
 
 if %selection% == F (
 	set folder_name=dreambooth-webui
-	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash ; ./run.sh ; exec bash ;"
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash ;  exec bash ;"
 	goto selected
 ) 
 
