@@ -84,6 +84,10 @@ if %selection% == B (
 if %selection% == C (
 	set folder_name=text-generation-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/install_full.sh | bash -i ; ./run.sh ; exec bash ;"
+) else (
+	echo:
+	echo Unsupported selection '%selection%'.
+	goto install
 )
 
 echo:
