@@ -70,6 +70,7 @@ echo C) Text Gen Webui (oobabooga)
 echo D) Comfy UI
 echo E) Dreambooth (Kohya SS)
 echo F) Tortoise-TTS-Fast
+echo G) Bark
 echo:
 
 set /p selection=Select: 
@@ -105,9 +106,16 @@ if %selection% == E (
 	goto selected
 ) 
 
+
 if %selection% == F (
 	set folder_name=dreambooth-webui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Tortoise-TTS-Fast/install_full.sh | bash ; ./run.sh ; exec bash ;"
+	goto selected
+) 
+
+if %selection% == G (
+	set folder_name=dreambooth-webui
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/bark/install_full.sh | bash ; exec bash ;"
 	goto selected
 ) else (
 	echo:
