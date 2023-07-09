@@ -3,6 +3,8 @@
 set linux_distro=Ubuntu-22.04
 set base_tar=ubuntu-22-04-base.tar
 
+set context=gen-ai 
+
 if not exist "%base_tar%" (
 	echo will now install '%linux_distro%' and provision base image.
 	start wsl --install %linux_distro%
@@ -34,15 +36,8 @@ if not exist "%folder_name%" (
 ) else (
     echo Folder '%folder_name%' already exists.
 )
-wsl --import %folder_name% .\%folder_name% %base_tar%
+set wsl_name = %folder_name%-%context%
+wsl --import %wsl_name% .\%folder_name% %base_tar%
 timeout 5 /nobreak
-start wsl -d %folder_name% -u %user_name% --cd /home/%user_name% -e bash -lic %command%
-PAUSE
-
-wsl --list
-
-echo ----------------------------------------------
-set /p disto=Select wsl instance to run:
-set /p user_name=- Enter user name:
-start wsl -d %disto% -u %user_name% --cd /home/%user_name%
+start wsl -d %wsl_name% -u %user_name% --cd /home/%user_name% -e bash -lic %command%
 PAUSE
