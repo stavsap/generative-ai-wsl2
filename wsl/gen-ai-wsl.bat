@@ -71,6 +71,8 @@ echo D) Comfy UI
 echo E) Dreambooth (Kohya SS)
 echo F) Tortoise-TTS-Fast
 echo G) Bark
+echo H) parseq (deforum sequancer)
+echo J) DragGAN
 echo:
 
 set /p selection=Select: 
@@ -120,6 +122,12 @@ if %selection% == G (
 ) if %selection% == H (
 	set folder_name=parseq
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/parseq/install_full.sh | bash -i ; exec bash ;"
+	goto selected
+) 
+
+if %selection% == J (
+	set folder_name=parseq
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/DragGen/install_full.sh | bash -i ; exec bash ;"
 	goto selected
 ) else (
 	echo:
