@@ -2,12 +2,17 @@
 
 ## Download bat file
 
+Download raw the [gen-ai-wsl.bat](https://github.com/stavsap/generative-ai-wsl2/blob/main/wsl/gen-ai-wsl.bat) 
+
+Or
+
 Open cmd in desired folder (SSD is highly recommended), then copy paste the following commands:
 
 ``` shell
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/gen-ai-wsl.bat -o gen-ai-wsl.bat
 
 ```
+
 - **note**: curl is supported in windows 11.
 
 run **gen-ai-wsl.bat** and follow the instrcutions.
