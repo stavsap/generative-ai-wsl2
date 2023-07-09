@@ -128,7 +128,7 @@ if %selection% == 8 (
 ) 
 
 if %selection% == 9 (
-	set folder_name=parseq
+	set folder_name=drag-gan
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/DragGen/install_full.sh | bash -i ; exec bash ;"
 	goto selected
 ) else (
