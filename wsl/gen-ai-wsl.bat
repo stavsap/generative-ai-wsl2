@@ -10,10 +10,14 @@ echo Welcome to Gen AI Manager.
 echo:
 
 if not exist "%base_tar%" (
-	echo No base image found. 
-	echo Install '%linux_distro%' wsl distro and provision base image. after setting username and password type 'exit' in the cli to get back here.
+	echo No base image found!!!. 
+	echo:
+	echo Up Next: Install '%linux_distro%' wsl distro and provision base image. 
+	echo After setting username and password type 'exit' in the cli to get back here.
+	PAUSE
 	start wsl --install %linux_distro%
 	PAUSE
+	echo:
 	echo Exporting '%linux_distro%' to '%base_tar%'.
 	wsl --export %linux_distro% %base_tar%
 	wsl -t %linux_distro%
@@ -21,13 +25,48 @@ if not exist "%base_tar%" (
 	echo:
 	echo Provision base image complete!
 	echo:
-	PAUSE 
+	goto install
 )
 
-echo Select gen ai to install:
+:main
 echo:
-echo A) Stable Diffusion a1111
-echo B) Text Gen Webui
+echo what you want to do?
+echo A) Install
+echo B) Run
+echo C) Update
+echo D) Delete
+echo E) Exit
+echo:
+
+set /p selection=Select:
+
+if %selection% == A (
+	goto install
+)
+if %selection% == B (
+	goto run
+)
+if %selection% == C (
+	goto update
+)
+if %selection% == D (
+	goto delete
+)
+if %selection% == E (
+	goto exit
+) else (
+	echo:
+	echo Unsupported selection '%selection%', select from A, B, C, D or E.
+	goto main
+)
+
+:install
+echo:
+echo Select Gen Ai to install:
+echo:
+echo A) Stable Diffusion (a1111)
+echo B) Text Gen Webui (oobabooga)
+echo:
 
 set /p selection=Select: 
 
@@ -54,6 +93,62 @@ if not exist "%folder_name%" (
 set wsl_name=%folder_name%-%context%
 
 wsl --import %wsl_name% .\%folder_name% %base_tar%
+
 timeout 5 /nobreak
 start wsl -d %wsl_name% -u %user_name% --cd /home/%user_name% -e bash -lic %command%
+PAUSE
+goto main
+
+:run
+echo:
+
+wsl --list -v
+echo:
+echo -------------------------------------------------------
+echo:
+set /p disto=Select wsl instance to update (full name):
+set /p user_name=Enter wsl (base image) user name:
+echo:
+echo Now will start run '%disto%' for '%user_name%' in new cli window.
+PAUSE
+start wsl -d %disto% -u %user_name% --cd /home/%user_name% -e bash -lic "./run.sh ; exec bash ;"
+
+goto main
+
+:update
+
+echo:
+
+wsl --list -v
+echo:
+echo -------------------------------------------------------
+echo:
+set /p disto=Select wsl instance to run (full name):
+set /p user_name=Enter wsl (base image) user name:
+echo:
+echo Now will start update '%disto%' for '%user_name%' in new cli window.
+PAUSE
+start wsl -d %disto% -u %user_name% --cd /home/%user_name% -e bash -lic "./update.sh ; ./run.sh ; exec bash ;"
+
+goto main
+
+:delete
+
+echo:
+wsl --list -v
+echo:
+echo -------------------------------------------------------
+echo:
+set /p disto=Select wsl instance to delete (full name):
+echo:
+echo Now will delete '%disto%'...
+PAUSE
+wsl -t %disto%
+timeout 5 /nobreak
+wsl --unregister %disto%
+
+goto main
+
+:exit
+echo Bye Bye...
 PAUSE
