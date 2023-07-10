@@ -93,7 +93,7 @@ recommanded extensions
 
 | Extension             | Description            | Type | Link |
 |-----------------------|------------------------|-------|------|
-| Infinit Image Browser |                        | | |
+| Infinit Image Browser |                        | | [Link](https://github.com/zanllp/sd-webui-infinite-image-browsing)|
 | Control Net           | Ability to control difusion process | Tab | |
 | Sad Talker            | [Article](https://sadtalker.github.io/) | | [Link](https://github.com/OpenTalker/SadTalker/blob/main/docs/webui_extension.md) |
 | Deforum               |                        | | |
