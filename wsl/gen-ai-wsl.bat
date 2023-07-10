@@ -72,9 +72,10 @@ echo 3) Text Gen Webui (oobabooga)
 echo 4) Compfy UI
 echo 5) Dreambooth (Kohya SS)
 echo 6) Tortoise-TTS-Fast
-echo 7) Bark
+echo 7) Bark (no ui, scripting only)
 echo 8) parseq (deforum sequancer)
 echo 9) DragGAN
+echo 10) H2O LLM Studio
 echo:
 
 set /p selection=Select: 
@@ -133,9 +134,15 @@ if %selection% == 9 (
 	set folder_name=drag-gan
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/DragGen/install_full.sh | bash -i ; exec bash ;"
 	goto selected
+) 
+
+if %selection% == 10 (
+	set folder_name=h2o-llmstudio
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/h2o-llmstudio/install_full.sh | bash ; exec bash ;"
+	goto selected
 ) else (
 	echo:
-	echo Unsupported selection '%selection%'. select # between 1-9.
+	echo Unsupported selection '%selection%'. select # between 1-10.
 	goto install
 )
 
