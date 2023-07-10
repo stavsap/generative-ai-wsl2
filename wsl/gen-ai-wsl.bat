@@ -69,7 +69,7 @@ echo:
 echo 1) Stable Diffusion (a1111)
 echo 2) Stable Diffusion (Vlad Automatic)
 echo 3) Text Gen Webui (oobabooga)
-echo 4) Comfy UI
+echo 4) Compfy UI
 echo 5) Dreambooth (Kohya SS)
 echo 6) Tortoise-TTS-Fast
 echo 7) Bark
