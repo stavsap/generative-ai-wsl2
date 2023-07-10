@@ -58,7 +58,7 @@ if %selection% == 5 (
 	goto exit
 ) else (
 	echo:
-	echo Unsupported selection '%selection%', select from A, B, C, D or E.
+	echo Unsupported selection '%selection%', select # between 1-5.
 	goto main
 )
 
@@ -135,7 +135,7 @@ if %selection% == 9 (
 	goto selected
 ) else (
 	echo:
-	echo Unsupported selection '%selection%'.
+	echo Unsupported selection '%selection%'. select # between 1-9.
 	goto install
 )
 
