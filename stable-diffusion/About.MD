@@ -101,6 +101,7 @@ recommanded extensions
 | Face Swap (roop)    |  | Script | [Link](https://github.com/s0md3v/sd-webui-roop)|
 | Photopea | photo editor like photoshop inside a1111| Tab | [Link](https://github.com/yankooliveira/sd-webui-photopea-embed)|
 | txt2video         | | Tab | [zeroscope_v2_XL model](https://huggingface.co/cerspense/zeroscope_v2_XL?fbclid=IwAR1eCTx01FXK4DESF__KS2EYGPnHxH3bwzY-xdIjvjAQ1R212IZAMxsrsmw) [extension git](https://github.com/kabachuha/sd-webui-text2video)|
+| CivitAI sync | | meta | [Link](https://github.com/civitai/sd_civitai_extension) |
 
 
 # Training
