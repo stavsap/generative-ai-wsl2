@@ -24,11 +24,15 @@ if not exist "%base_tar%" (
 	wsl --unregister %linux_distro%
 	echo:
 	echo Provision base image complete!
+	set /p user_name=Enter WSL (base image) username:
 	echo:
 	goto install
 )
 
+set /p user_name=Enter WSL (base image) username:
+
 :main
+echo:
 echo:
 echo what you want to do?
 echo 1) Install
@@ -139,8 +143,6 @@ if %selection% == 9 (
 
 :selected
 echo:
-set /p user_name=Enter WSL (base image) username:
-
 if not exist "%folder_name%" (
     mkdir "%folder_name%"
     echo Folder '%folder_name%' created successfully.
@@ -165,7 +167,6 @@ echo:
 echo -------------------------------------------------------
 echo:
 set /p disto=Select wsl instance to update (full name):
-set /p user_name=Enter wsl (base image) user name:
 echo:
 echo Now will start run '%disto%' for '%user_name%' in new cli window.
 PAUSE
@@ -182,7 +183,6 @@ echo:
 echo -------------------------------------------------------
 echo:
 set /p disto=Select wsl instance to run (full name):
-set /p user_name=Enter wsl (base image) user name:
 echo:
 echo Now will start update '%disto%' for '%user_name%' in new cli window.
 PAUSE
