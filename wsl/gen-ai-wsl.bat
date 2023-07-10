@@ -24,9 +24,7 @@ if not exist "%base_tar%" (
 	wsl --unregister %linux_distro%
 	echo:
 	echo Provision base image complete!
-	set /p user_name=Enter WSL (base image) username:
 	echo:
-	goto install
 )
 
 set /p user_name=Enter WSL (base image) username:
