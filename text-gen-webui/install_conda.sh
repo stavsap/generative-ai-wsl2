@@ -14,7 +14,7 @@ conda create -n textgen python=3.10.9 -y
 conda activate textgen
 git clone https://github.com/oobabooga/text-generation-webui
 cd text-generation-webui
-pip install -r requirements.txt
-pip install bitsandbytes
+python -m pip install -r requirements.txt
+python -m pip install bitsandbytes
 conda install cudatoolkit -y
 python server.py
