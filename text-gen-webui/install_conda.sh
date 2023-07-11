@@ -17,4 +17,5 @@ cd text-generation-webui
 python -m pip install -r requirements.txt
 python -m pip install bitsandbytes
 conda install cudatoolkit -y
-python server.py
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/update_new.sh | bash -i
+python server.py --api --extensions gallery
