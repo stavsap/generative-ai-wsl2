@@ -10,7 +10,7 @@ install_extension() {
 
     echo handling "$1"
     # Check if the folder is a Git repository
-    python -m pip install -r requierments.txt
+    python -m pip install -r requirements.txt
     
     # Return to the original folder
     cd - >/dev/null
