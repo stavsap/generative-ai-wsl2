@@ -7,7 +7,8 @@ folder_path="extensions"
 install_extension() {
     # Navigate to the folder
     cd "$1"
-    
+
+    echo handling "$1"
     # Check if the folder is a Git repository
     python -m pip install -r requierments.txt
     
