@@ -13,3 +13,7 @@ RUN apt install nvidia-cuda-toolkit -y
 RUN useradd -s /bin/bash user
 USER user
 WORKDIR /home/user
+
+RUN curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/stable-diffusion-vlad-automatic/install.sh -o install.sh
+RUN chmod +x install.sh
+RUN ./install.sh
