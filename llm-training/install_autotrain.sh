@@ -20,4 +20,6 @@ conda install -c conda-forge hdbscan -y
 
 sudo apt-get install --reinstall libpq-dev -y
 
+pip install tiktoken -y
+
 pip install autotrain-advanced
