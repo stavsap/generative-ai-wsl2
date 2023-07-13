@@ -1,3 +1,4 @@
+# create conda for python=3.9.0
 conda install cudatoolkit -y
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
 pip install -U bitsandbytes -y
