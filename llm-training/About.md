@@ -1,7 +1,7 @@
 # LLM Fine Tuning
 
-[](The Novice's LLM Training Guide (rentry.org)![image](https://github.com/stavsap/generative-ai-wsl2/assets/4201054/6f7655b9-d608-4ef7-8faf-08b9c8569170)
-)
+[The Novice's LLM Training Guide](https://github.com/stavsap/generative-ai-wsl2/assets/4201054/6f7655b9-d608-4ef7-8faf-08b9c8569170)
+
 
 ## Qlora autotrain 
 
