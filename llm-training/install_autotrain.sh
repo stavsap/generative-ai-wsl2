@@ -1,5 +1,5 @@
 # create conda for python=3.9.0
-conda create -n autotrain python=3.9.0
+conda create -n autotrain python=3.9.0 -y
 conda install cudatoolkit -y
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
 pip install -U bitsandbytes -y
