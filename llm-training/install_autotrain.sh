@@ -2,6 +2,7 @@
 sudo apt install cmake -y
 sudo apt-get install postgresql python3-dev -y
 sudo apt-get install --reinstall libpq-dev -y
+sudo apt install libjpeg-dev zlib1g-dev -y
 
 conda create -n autotrain python=3.9.0 -y
 conda install cudatoolkit -y
