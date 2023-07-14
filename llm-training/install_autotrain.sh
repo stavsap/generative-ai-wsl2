@@ -1,4 +1,3 @@
-# create conda for python=3.9.0
 sudo apt install cmake -y
 sudo apt-get install postgresql python3-dev -y
 sudo apt-get install --reinstall libpq-dev -y
