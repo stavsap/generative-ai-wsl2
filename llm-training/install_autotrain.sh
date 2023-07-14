@@ -9,6 +9,8 @@ conda activate autotrain
 conda install cudatoolkit -y
 conda install pytorch torchvision torchaudio pytorch-cuda=11.8 -c pytorch -c nvidia -y
 conda install -c conda-forge hdbscan -y
+conda install curl -y
+conda install cmake -y
 
 pip install -U bitsandbytes
 pip install -U git+https://github.com/huggingface/transformers.git
