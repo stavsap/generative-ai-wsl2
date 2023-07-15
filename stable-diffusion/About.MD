@@ -108,6 +108,8 @@ recommanded extensions
 
 - https://github.com/victorchall/EveryDream2trainer/blob/main/doc/TRAINING.md
 
+- https://github.com/starik222/BooruDatasetTagManager
+
 # Usfull Info
 
 - [SD Cheat Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet)
