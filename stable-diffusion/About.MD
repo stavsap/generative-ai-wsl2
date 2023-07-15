@@ -110,6 +110,8 @@ recommanded extensions
 
 - https://github.com/starik222/BooruDatasetTagManager
 
+- https://www.youtube.com/watch?v=PadSEwA3xiU
+
 # Usfull Info
 
 - [SD Cheat Sheet](https://github.com/SupaGruen/StableDiffusion-CheatSheet)
