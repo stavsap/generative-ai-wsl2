@@ -7,3 +7,8 @@ This ui will let you design and execute advanced stable diffusion pipelines usin
 - [Compfy UI Github](https://github.com/comfyanonymous/ComfyUI)
 
 - [Compfy UI Examples](https://github.com/comfyanonymous/ComfyUI_examples)
+
+
+## Extra
+
+- [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
