@@ -161,3 +161,4 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Drag
 - [Image Mixer](https://github.com/justinpinkney/stable-diffusion)_
 - [Whisper speach2text](https://github.com/openai/whisper)
 - [MS Guidance](https://github.com/microsoft/guidance/)
+- [Invoke AI](https://github.com/invoke-ai/InvokeAI)
