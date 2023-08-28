@@ -1,2 +1,2 @@
 cd automatic
-./webui.sh
+./webui.sh --backend diffusers
