@@ -76,7 +76,7 @@ echo 7) Bark (no ui, scripting only)
 echo 8) parseq (deforum sequancer)
 echo 9) DragGAN
 echo 10) H2O LLM Studio
-echo 11) Foocus
+echo 11) Fooocus
 echo:
 
 set /p selection=Select: 
@@ -145,7 +145,7 @@ if %selection% == 10 (
 ) 
 
 if %selection% == 11 (
-	set folder_name=foocus
+	set folder_name=fooocus
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/fooocus/install_full.sh | bash -i ; exec bash ;"
 	goto selected
 ) else (
