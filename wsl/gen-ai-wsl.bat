@@ -76,9 +76,11 @@ echo 7) Bark (no ui, scripting only)
 echo 8) parseq (deforum sequancer)
 echo 9) DragGAN
 echo 10) H2O LLM Studio
+echo 11) Foocus
 echo:
 
 set /p selection=Select: 
+
 
 if %selection% == 1 (
 	set folder_name=stable-difussion-webui
@@ -140,9 +142,15 @@ if %selection% == 10 (
 	set folder_name=h2o-llmstudio
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/h2o-llmstudio/install_full.sh | bash ; exec bash ;"
 	goto selected
+) 
+
+if %selection% == 11 (
+	set folder_name=foocus
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/fooocus/install_full.sh | bash -i ; exec bash ;"
+	goto selected
 ) else (
 	echo:
-	echo Unsupported selection '%selection%'. select # between 1-10.
+	echo Unsupported selection '%selection%'. select # between 1-11.
 	goto install
 )
 
