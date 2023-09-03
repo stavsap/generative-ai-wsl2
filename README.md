@@ -18,7 +18,7 @@ batch scripts to get things running quickly, check [here](https://github.com/sta
 1. [Stable Diffusion Webui](#stable-diffusion-webui-automatic1111)
 2. [Text Generation Webui](#text-generation-webui-oobabooga)
 3. [Compfy UI](#compfy-ui)
-4. [Foocus](#foocus)
+4. [Fooocus](#fooocus)
 5. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
 6. [Stable Diffusion Vlad Webui](#stable-diffusion-webui-vlad-automatic1111)
 7. [Parseq](#parseq-deforum-parameter-sequencer)
@@ -71,7 +71,7 @@ Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/install_full.sh |  bash
 ```
 
-## Foocus
+## Fooocus
 
 [About](https://github.com/stavsap/generative-ai-wsl2/blob/main/fooocus/README.md)
 
