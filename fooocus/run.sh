@@ -1,3 +1,3 @@
 cd Fooocus
 conda activate fooocus
-python luanch.py
+python launch.py
