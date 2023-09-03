@@ -73,7 +73,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/comp
 
 ## Foocus
 
-[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/fooocus/About.md)
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/fooocus/README.md)
 
 Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
