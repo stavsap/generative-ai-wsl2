@@ -19,3 +19,4 @@ cd Fooocus
 conda env create -f environment.yaml
 conda activate fooocus
 pip install -r requirements_versions.txt
+python launch.py
