@@ -78,7 +78,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/comp
 Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/fooocus/install_full.sh |  bash
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/fooocus/install_full.sh |  bash -i
 ```
 
 ## DreamBooth Webui (Kohya SS)
