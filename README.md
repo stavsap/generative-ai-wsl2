@@ -2,15 +2,15 @@
 
 ## 🚦 WIP 🚦
 
-An easy to setup commands to run open-source generative AI projects inside WSL (Windows Subsystem for Linux)
+An easy to setup commands to run open-source generative AI projects on WSL 2.0 (Windows Subsystem for Linux).
 
 The provided scripts are for **Ubuntu 22.04** WSL Distro, they also will work on Ubuntu 22.04 on bare-metal. 
 
 **Nvidia cards support only**.
 
-New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/WSL-2.0)
+- New to WSL? check the [WIKI](https://github.com/stavsap/generative-ai-wsl2/wiki/WSL-2.0)
 
-batch scripts to get things running quickly, check [here](https://github.com/stavsap/generative-ai-wsl2/blob/main/wsl/README.md)
+- Batch scripts to get things running quickly, check [here](https://github.com/stavsap/generative-ai-wsl2/blob/main/wsl/README.md)
 
 <a href="https://www.buymeacoffee.com/stavsapq" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
