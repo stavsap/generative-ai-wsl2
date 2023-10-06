@@ -12,7 +12,7 @@ Open cmd in desired folder (SSD is highly recommended), then copy paste the foll
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/wsl/gen-ai-wsl.bat -o gen-ai-wsl.bat
 
 ```
-curl is supported in windows 11.
+note: curl command is **supported in windows 11**.
 
 run **gen-ai-wsl.bat** and follow the instrcutions.
 
