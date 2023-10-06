@@ -30,7 +30,7 @@ The provided scripts are for **Ubuntu 22.04** WSL Distro, they also will work on
 
 ## Stable Diffusion Webui (AUTOMATIC1111)
 
-[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/stable-diffusion/About.MD)
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/stable-diffusion/README.md)
 
 Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
