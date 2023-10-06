@@ -2,7 +2,7 @@
 
 ## Download bat file
 
-Download the raw [gen-ai-wsl.bat](https://github.com/stavsap/generative-ai-wsl2/blob/main/wsl/gen-ai-wsl.bat) file to desired folder (SSD is highly recommended)
+Download the raw [gen-ai-wsl.bat](https://github.com/stavsap/generative-ai-wsl2/blob/main/wsl/gen-ai-wsl.bat) file to desired folder (SSD is highly recommended), this folder is going to be used as root folder to manage base wsl instance and other home folders for installed generative ai projects.
 
 **Or**
 
