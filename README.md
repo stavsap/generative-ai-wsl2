@@ -63,7 +63,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text
 
 ## Compfy UI
 
-[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/compfyui/About.md)
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/compfyui/README.md)
 
 Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
