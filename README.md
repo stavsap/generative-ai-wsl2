@@ -93,7 +93,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/drea
 
 ## Stable Diffusion Webui (Vlad AUTOMATIC1111)
 
-[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/stable-diffusion-vlad-automatic/About.MD)
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/stable-diffusion-vlad-automatic/README.md)
 
 Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
