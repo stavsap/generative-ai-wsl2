@@ -19,3 +19,9 @@ This ui will let you design and execute advanced stable diffusion workflows usin
 To install a custom node from github repo, go to "ComfyUI\custom_nodes" and perform git clone..., then restart the server.
 
 - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+
+## Checkpoint
+
+- [stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
+- [stable-diffusion-xl-refiner-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0)
+- [sdxl vae](https://huggingface.co/stabilityai/sdxl-vae)
