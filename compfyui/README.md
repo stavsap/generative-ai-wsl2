@@ -24,9 +24,14 @@ The install comes with the following:
 - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 - [Efficiency Nodes](https://github.com/LucianoCirino/efficiency-nodes-comfyui)
 - [Undo/Redo](https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo.git)
+## Models
 
-## Checkpoint
+### Checkpoint
 
 - [stable-diffusion-xl-base-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-base-1.0)
 - [stable-diffusion-xl-refiner-1.0](https://huggingface.co/stabilityai/stable-diffusion-xl-refiner-1.0)
 - [sdxl vae](https://huggingface.co/stabilityai/sdxl-vae)
+
+### Clip Vision
+
+- [Clip Vision G](https://huggingface.co/comfyanonymous/clip_vision_g/blob/main/clip_vision_g.safetensors)
