@@ -13,6 +13,7 @@ This ui will let you design and execute advanced stable diffusion workflows usin
 - [Basic Getting Started](https://www.youtube.com/watch?v=mUqzA5D0k9E&t=1362s&ab_channel=Control%2BAlt%2BAI)
 - [Control Net Tutorial](https://www.youtube.com/watch?v=DMxnf4WXMsY&ab_channel=ScottDetweiler)
 - [IPAdapter Tutorial](https://www.youtube.com/watch?v=xzGdynQDzsM&ab_channel=ScottDetweiler)
+- [Nested Builder](https://github.com/ssitu/ComfyUI_NestedNodeBuilder.git)
 
 ## Custom Nodes
 
@@ -22,6 +23,7 @@ The install comes with the following:
 
 - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 - [Efficiency Nodes](https://github.com/LucianoCirino/efficiency-nodes-comfyui)
+- [Undo/Redo](https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo.git)
 
 ## Checkpoint
 
