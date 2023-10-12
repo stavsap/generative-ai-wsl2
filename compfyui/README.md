@@ -36,3 +36,7 @@ The install comes with the following:
 ### Clip Vision
 
 - [Clip Vision G](https://huggingface.co/comfyanonymous/clip_vision_g/blob/main/clip_vision_g.safetensors)
+
+## Control Net Lora
+
+- [Control Net Lora](https://huggingface.co/stabilityai/control-lora)
