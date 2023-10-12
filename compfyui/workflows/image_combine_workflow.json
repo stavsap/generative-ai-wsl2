@@ -1,0 +1,908 @@
+{
+  "last_node_id": 19,
+  "last_link_id": 25,
+  "nodes": [
+    {
+      "id": 7,
+      "type": "LoadImage",
+      "pos": [
+        42,
+        715
+      ],
+      "size": [
+        557.0087309692384,
+        465.90912080383316
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            6
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "image.png",
+        "image"
+      ]
+    },
+    {
+      "id": 12,
+      "type": "EmptyLatentImage",
+      "pos": [
+        1802,
+        714
+      ],
+      "size": {
+        "0": 315,
+        "1": 106
+      },
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            13
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "EmptyLatentImage"
+      },
+      "widgets_values": [
+        512,
+        1024,
+        1
+      ]
+    },
+    {
+      "id": 1,
+      "type": "CheckpointLoaderSimple",
+      "pos": [
+        40,
+        63
+      ],
+      "size": [
+        409.81368967590345,
+        98
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            11
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            1,
+            2
+          ],
+          "shape": 3,
+          "slot_index": 1
+        },
+        {
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            16
+          ],
+          "shape": 3,
+          "slot_index": 2
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CheckpointLoaderSimple"
+      },
+      "widgets_values": [
+        "dreamshaperXL10_alpha2Xl10.safetensors"
+      ]
+    },
+    {
+      "id": 17,
+      "type": "LoadImage",
+      "pos": [
+        47,
+        1245
+      ],
+      "size": [
+        315,
+        313.9999656677246
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            21
+          ],
+          "shape": 3,
+          "slot_index": 0
+        },
+        {
+          "name": "MASK",
+          "type": "MASK",
+          "links": null,
+          "shape": 3
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "LoadImage"
+      },
+      "widgets_values": [
+        "crazy.png",
+        "image"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CLIPVisionLoader",
+      "pos": [
+        25,
+        575
+      ],
+      "size": [
+        407.1151069335939,
+        58.34295024414075
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "outputs": [
+        {
+          "name": "CLIP_VISION",
+          "type": "CLIP_VISION",
+          "links": [
+            5,
+            22
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPVisionLoader"
+      },
+      "widgets_values": [
+        "clip_vision_g.safetensors"
+      ]
+    },
+    {
+      "id": 11,
+      "type": "Reroute",
+      "pos": [
+        1929,
+        67
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 11
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "MODEL",
+          "links": [
+            12
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 3,
+      "type": "CLIPTextEncode",
+      "pos": [
+        653,
+        297
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 1
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            19
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#232",
+      "bgcolor": "#353"
+    },
+    {
+      "id": 4,
+      "type": "CLIPTextEncode",
+      "pos": [
+        648,
+        348
+      ],
+      "size": {
+        "0": 400,
+        "1": 200
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip",
+          "type": "CLIP",
+          "link": 2
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            4
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPTextEncode"
+      },
+      "widgets_values": [
+        ""
+      ],
+      "color": "#322",
+      "bgcolor": "#533"
+    },
+    {
+      "id": 15,
+      "type": "Reroute",
+      "pos": [
+        1932,
+        109
+      ],
+      "size": [
+        75,
+        26
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "",
+          "type": "*",
+          "link": 16
+        }
+      ],
+      "outputs": [
+        {
+          "name": "",
+          "type": "VAE",
+          "links": [
+            17
+          ],
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "showOutputText": false,
+        "horizontal": false
+      }
+    },
+    {
+      "id": 8,
+      "type": "CLIPVisionEncode",
+      "pos": [
+        695,
+        695
+      ],
+      "size": {
+        "0": 380.4000244140625,
+        "1": 46
+      },
+      "flags": {},
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip_vision",
+          "type": "CLIP_VISION",
+          "link": 5
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 6
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CLIP_VISION_OUTPUT",
+          "type": "CLIP_VISION_OUTPUT",
+          "links": [
+            7
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPVisionEncode"
+      }
+    },
+    {
+      "id": 18,
+      "type": "CLIPVisionEncode",
+      "pos": [
+        717,
+        1218
+      ],
+      "size": {
+        "0": 380.4000244140625,
+        "1": 46
+      },
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "clip_vision",
+          "type": "CLIP_VISION",
+          "link": 22
+        },
+        {
+          "name": "image",
+          "type": "IMAGE",
+          "link": 21
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CLIP_VISION_OUTPUT",
+          "type": "CLIP_VISION_OUTPUT",
+          "links": [
+            23
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPVisionEncode"
+      }
+    },
+    {
+      "id": 16,
+      "type": "ConditioningZeroOut",
+      "pos": [
+        1103,
+        297
+      ],
+      "size": {
+        "0": 317.4000244140625,
+        "1": 26
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 19
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            20
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ConditioningZeroOut"
+      }
+    },
+    {
+      "id": 6,
+      "type": "ConditioningZeroOut",
+      "pos": [
+        1102,
+        349
+      ],
+      "size": {
+        "0": 317.4000244140625,
+        "1": 26
+      },
+      "flags": {
+        "collapsed": true
+      },
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 4
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            10
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ConditioningZeroOut"
+      }
+    },
+    {
+      "id": 9,
+      "type": "unCLIPConditioning",
+      "pos": [
+        1207,
+        813
+      ],
+      "size": {
+        "0": 393,
+        "1": 102
+      },
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 20
+        },
+        {
+          "name": "clip_vision_output",
+          "type": "CLIP_VISION_OUTPUT",
+          "link": 7
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            24
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "unCLIPConditioning"
+      },
+      "widgets_values": [
+        1,
+        0
+      ]
+    },
+    {
+      "id": 19,
+      "type": "unCLIPConditioning",
+      "pos": [
+        1653,
+        1184
+      ],
+      "size": {
+        "0": 393,
+        "1": 102
+      },
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 24
+        },
+        {
+          "name": "clip_vision_output",
+          "type": "CLIP_VISION_OUTPUT",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "CONDITIONING",
+          "type": "CONDITIONING",
+          "links": [
+            25
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "unCLIPConditioning"
+      },
+      "widgets_values": [
+        0.8,
+        0
+      ]
+    },
+    {
+      "id": 10,
+      "type": "KSampler",
+      "pos": [
+        2272,
+        641
+      ],
+      "size": [
+        315,
+        474
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 12
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 25
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 10
+        },
+        {
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            14
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSampler"
+      },
+      "widgets_values": [
+        335484041005273,
+        "randomize",
+        40,
+        5,
+        "euler",
+        "normal",
+        1
+      ]
+    },
+    {
+      "id": 13,
+      "type": "VAEDecode",
+      "pos": [
+        2717,
+        635
+      ],
+      "size": {
+        "0": 210,
+        "1": 46
+      },
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "samples",
+          "type": "LATENT",
+          "link": 14
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 17
+        }
+      ],
+      "outputs": [
+        {
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            15
+          ],
+          "shape": 3,
+          "slot_index": 0
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode"
+      }
+    },
+    {
+      "id": 14,
+      "type": "PreviewImage",
+      "pos": [
+        3040,
+        634
+      ],
+      "size": [
+        697.5749249389655,
+        771.9595895385744
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "images",
+          "type": "IMAGE",
+          "link": 15
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PreviewImage"
+      }
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      1,
+      3,
+      0,
+      "CLIP"
+    ],
+    [
+      2,
+      1,
+      1,
+      4,
+      0,
+      "CLIP"
+    ],
+    [
+      4,
+      4,
+      0,
+      6,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      5,
+      2,
+      0,
+      8,
+      0,
+      "CLIP_VISION"
+    ],
+    [
+      6,
+      7,
+      0,
+      8,
+      1,
+      "IMAGE"
+    ],
+    [
+      7,
+      8,
+      0,
+      9,
+      1,
+      "CLIP_VISION_OUTPUT"
+    ],
+    [
+      10,
+      6,
+      0,
+      10,
+      2,
+      "CONDITIONING"
+    ],
+    [
+      11,
+      1,
+      0,
+      11,
+      0,
+      "*"
+    ],
+    [
+      12,
+      11,
+      0,
+      10,
+      0,
+      "MODEL"
+    ],
+    [
+      13,
+      12,
+      0,
+      10,
+      3,
+      "LATENT"
+    ],
+    [
+      14,
+      10,
+      0,
+      13,
+      0,
+      "LATENT"
+    ],
+    [
+      15,
+      13,
+      0,
+      14,
+      0,
+      "IMAGE"
+    ],
+    [
+      16,
+      1,
+      2,
+      15,
+      0,
+      "*"
+    ],
+    [
+      17,
+      15,
+      0,
+      13,
+      1,
+      "VAE"
+    ],
+    [
+      19,
+      3,
+      0,
+      16,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      20,
+      16,
+      0,
+      9,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      21,
+      17,
+      0,
+      18,
+      1,
+      "IMAGE"
+    ],
+    [
+      22,
+      2,
+      0,
+      18,
+      0,
+      "CLIP_VISION"
+    ],
+    [
+      23,
+      18,
+      0,
+      19,
+      1,
+      "CLIP_VISION_OUTPUT"
+    ],
+    [
+      24,
+      9,
+      0,
+      19,
+      0,
+      "CONDITIONING"
+    ],
+    [
+      25,
+      19,
+      0,
+      10,
+      1,
+      "CONDITIONING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {},
+  "version": 0.4
+}
