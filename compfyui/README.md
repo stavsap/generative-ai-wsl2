@@ -14,6 +14,7 @@ This ui will let you design and execute advanced stable diffusion workflows usin
 - [Control Net Tutorial](https://www.youtube.com/watch?v=DMxnf4WXMsY&ab_channel=ScottDetweiler)
 - [IPAdapter Tutorial](https://www.youtube.com/watch?v=xzGdynQDzsM&ab_channel=ScottDetweiler)
 - [Nested Builder](https://github.com/ssitu/ComfyUI_NestedNodeBuilder.git)
+- [Impact Pack](https://github.com/ltdrdata/ComfyUI-Impact-Pack.git)
 
 ## Custom Nodes
 
