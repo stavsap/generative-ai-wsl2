@@ -5,9 +5,11 @@ curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/
 chmod +x update.sh
 
 git clone https://github.com/comfyanonymous/ComfyUI.git
-cd ComfyUI
-cd custom_nodes
+cd ComfyUI/custom_nodes
 git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+git clone https://github.com/LucianoCirino/efficiency-nodes-comfyui.git
+git clone https://github.com/ssitu/ComfyUI_NestedNodeBuilder.git
+git clone https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo.git
 cd ..
 python3 -m venv venv
 source venv/bin/activate
