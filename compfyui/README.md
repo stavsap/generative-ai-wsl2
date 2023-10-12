@@ -18,7 +18,10 @@ This ui will let you design and execute advanced stable diffusion workflows usin
 
 To install a custom node from github repo, go to "ComfyUI\custom_nodes" and perform git clone..., then restart the server.
 
+The install comes with the following:
+
 - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
+- [Efficiency Nodes](https://github.com/LucianoCirino/efficiency-nodes-comfyui)
 
 ## Checkpoint
 
