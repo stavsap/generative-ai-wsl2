@@ -6,6 +6,9 @@ chmod +x update.sh
 
 git clone https://github.com/comfyanonymous/ComfyUI.git
 cd ComfyUI
+cd custom_nodes
+git clone https://github.com/ltdrdata/ComfyUI-Manager.git
+cd ..
 python3 -m venv venv
 source venv/bin/activate
 python -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118 xformer
