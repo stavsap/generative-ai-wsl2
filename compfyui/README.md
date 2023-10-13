@@ -22,6 +22,8 @@ To install a custom node from github repo, go to "ComfyUI\custom_nodes" and perf
 
 The install comes with the following:
 
+### Nodes
+
 - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 - [Efficiency Nodes](https://github.com/LucianoCirino/efficiency-nodes-comfyui)
 - [Undo/Redo](https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo.git)
@@ -30,7 +32,13 @@ The install comes with the following:
 - [Comfy Math](https://github.com/evanspearman/ComfyMath.git)
 - [SDXL Recommended Resolution Calculator](https://github.com/marhensa/sdxl-recommended-res-calc.git)
 
+### Models
+
+- [ControlNet Lora](https://huggingface.co/stabilityai/control-lora)
+
 ### Recommanded for install via manager:
+
+#### Nodes
 
 - ComfyUI's ControlNet Auxiliary Preprocessors (Fannovel16)
 - ComfyUI Impact Pack (Dr.Lt.Data)
