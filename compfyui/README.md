@@ -27,6 +27,7 @@ The install comes with the following:
 - [Undo/Redo](https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo.git)
 - [Nested Node Builder](https://github.com/ssitu/ComfyUI_NestedNodeBuilder.git)
 - [Ultimate SD Upscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale)
+- [Comfy Math](https://github.com/evanspearman/ComfyMath.git)
 
 ### Recommanded for install via manager:
 
