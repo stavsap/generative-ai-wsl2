@@ -53,6 +53,10 @@ The install comes with the following:
 
 ### Clip Vision
 
+### Face Restore and Detection
+
+https://civitai.com/models/24690/comfyui-facerestore-node
+
 - [Clip Vision G](https://huggingface.co/comfyanonymous/clip_vision_g/blob/main/clip_vision_g.safetensors)
 
 ## Control Net Lora
