@@ -30,6 +30,7 @@ The install comes with the following:
 ### Recommanded for install via manager:
 
 - ComfyUI's ControlNet Auxiliary Preprocessors (Fannovel16)
+- ComfyUI Impact Pack (Dr.Lt.Data)
 
   
 ## Models
