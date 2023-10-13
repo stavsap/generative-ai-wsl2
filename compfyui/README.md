@@ -25,6 +25,7 @@ The install comes with the following:
 - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 - [Efficiency Nodes](https://github.com/LucianoCirino/efficiency-nodes-comfyui)
 - [Undo/Redo](https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo.git)
+- [Nested Node Builder](https://github.com/ssitu/ComfyUI_NestedNodeBuilder.git)
 
 ### Recommanded for install via manager:
 
