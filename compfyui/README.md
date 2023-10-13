@@ -26,6 +26,7 @@ The install comes with the following:
 - [Efficiency Nodes](https://github.com/LucianoCirino/efficiency-nodes-comfyui)
 - [Undo/Redo](https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo.git)
 - [Nested Node Builder](https://github.com/ssitu/ComfyUI_NestedNodeBuilder.git)
+- [Ultimate SD Upscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale)
 
 ### Recommanded for install via manager:
 
