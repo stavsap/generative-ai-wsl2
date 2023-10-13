@@ -15,7 +15,6 @@ This ui will let you design and execute advanced stable diffusion workflows usin
 - [Control Net Tutorial](https://www.youtube.com/watch?v=DMxnf4WXMsY&ab_channel=ScottDetweiler)
 - [IPAdapter Tutorial](https://www.youtube.com/watch?v=xzGdynQDzsM&ab_channel=ScottDetweiler)
 
-
 ## Custom Nodes
 
 To install a custom node from github repo, go to "ComfyUI\custom_nodes" and perform git clone..., then restart the server.
@@ -36,13 +35,12 @@ The install comes with the following:
 
 - [ControlNet Lora](https://huggingface.co/stabilityai/control-lora)
 
-### Recommanded for install via manager:
+### Recommanded for manual install via manager:
 
 #### Nodes
 
 - ComfyUI's ControlNet Auxiliary Preprocessors (Fannovel16)
 - ComfyUI Impact Pack (Dr.Lt.Data)
-
   
 ## Models
 
