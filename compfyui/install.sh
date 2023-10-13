@@ -16,7 +16,9 @@ git clone https://github.com/evanspearman/ComfyMath.git
 git clone https://github.com/marhensa/sdxl-recommended-res-calc.git
 cd ../models/controlnet
 git clone https://huggingface.co/stabilityai/control-lora
-cd ../..
+cd ..
+mkdir insightface
+cd ..
 python3 -m venv venv
 source venv/bin/activate
 python -m pip install torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu118 xformer
