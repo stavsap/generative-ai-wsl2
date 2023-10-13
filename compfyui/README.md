@@ -25,6 +25,12 @@ The install comes with the following:
 - [ComfyUI-Manager](https://github.com/ltdrdata/ComfyUI-Manager)
 - [Efficiency Nodes](https://github.com/LucianoCirino/efficiency-nodes-comfyui)
 - [Undo/Redo](https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo.git)
+
+### Recommanded for install via manager:
+
+- ComfyUI's ControlNet Auxiliary Preprocessors (Fannovel16)
+
+  
 ## Models
 
 ### Checkpoint
