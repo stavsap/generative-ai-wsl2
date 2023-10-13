@@ -12,6 +12,7 @@ git clone https://github.com/ssitu/ComfyUI_NestedNodeBuilder.git
 git clone https://github.com/bmad4ever/ComfyUI-Bmad-DirtyUndoRedo.git
 git clone https://github.com/ssitu/ComfyUI_UltimateSDUpscale.git --recursive
 git clone https://github.com/evanspearman/ComfyMath.git
+git clone https://github.com/marhensa/sdxl-recommended-res-calc.git
 cd ..
 python3 -m venv venv
 source venv/bin/activate
