@@ -41,7 +41,7 @@ The install comes with the following:
 
 - ComfyUI's ControlNet Auxiliary Preprocessors (Fannovel16)
 - ComfyUI Impact Pack (Dr.Lt.Data)
-- [ComfyUI reactor FaceSwapRoop (Gourieff)](https://github.com/Gourieff/comfyui-reactor-node.git), copy the into models/
+- [ComfyUI reactor FaceSwapRoop (Gourieff)](https://github.com/Gourieff/comfyui-reactor-node.git), copy the **inswapper_128.onnx** into models/insightface/
   
 ## Models
 
