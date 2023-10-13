@@ -28,6 +28,7 @@ The install comes with the following:
 - [Nested Node Builder](https://github.com/ssitu/ComfyUI_NestedNodeBuilder.git)
 - [Ultimate SD Upscale](https://github.com/ssitu/ComfyUI_UltimateSDUpscale)
 - [Comfy Math](https://github.com/evanspearman/ComfyMath.git)
+- [SDXL Recommended Resolution Calculator](https://github.com/marhensa/sdxl-recommended-res-calc.git)
 
 ### Recommanded for install via manager:
 
