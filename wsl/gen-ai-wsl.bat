@@ -101,7 +101,7 @@ if %selection% == 3 (
 ) 
 
 if %selection% == 4 (
-	set folder_name=compfy-ui
+	set folder_name=comfy-ui
 	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/comfyui/install_full.sh | bash ; exec bash ;"
 	goto selected
 ) 
