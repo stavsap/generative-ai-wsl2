@@ -1,7 +1,7 @@
-curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/run.sh > run.sh
+curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/comfyui/run.sh > run.sh
 chmod +x run.sh
 
-curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/update.sh > update.sh
+curl https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/comfyui/update.sh > update.sh
 chmod +x update.sh
 
 git lfs install
