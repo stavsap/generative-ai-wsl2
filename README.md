@@ -17,7 +17,7 @@ The provided scripts are for **Ubuntu 22.04** WSL Distro, they also will work on
 # Table of contents
 1. [Stable Diffusion Webui](#stable-diffusion-webui-automatic1111)
 2. [Text Generation Webui](#text-generation-webui-oobabooga)
-3. [Compfy UI](#compfy-ui)
+3. [ComfyUI](#comfy-ui)
 4. [Fooocus](#fooocus)
 5. [DreamBooth Webui](#dreambooth-webui-kohya-ss)
 6. [Stable Diffusion Vlad Webui](#stable-diffusion-webui-vlad-automatic1111)
@@ -61,14 +61,14 @@ If a warning is encountered in the log indicating that bitandbytes is compiled w
 curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/text-gen-webui/fix.sh | bash
 ```
 
-## Compfy UI
+## Comfy UI
 
-[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/compfyui/README.md)
+[About](https://github.com/stavsap/generative-ai-wsl2/blob/main/comfyui/README.md)
 
 Full install for clean Ubuntu 22.04 distro and Nvidia cards.
 
 ``` shell
-curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/install_full.sh |  bash
+curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/comfyui/install_full.sh |  bash
 ```
 
 ## Fooocus

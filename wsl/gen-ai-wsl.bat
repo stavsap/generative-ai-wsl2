@@ -69,7 +69,7 @@ echo:
 echo 1) Stable Diffusion (a1111)
 echo 2) Stable Diffusion (Vlad Automatic)
 echo 3) Text Gen Webui (oobabooga)
-echo 4) Compfy UI
+echo 4) ComfyUI
 echo 5) Dreambooth (Kohya SS)
 echo 6) Tortoise-TTS-Fast
 echo 7) Bark (no ui, scripting only)
@@ -102,7 +102,7 @@ if %selection% == 3 (
 
 if %selection% == 4 (
 	set folder_name=compfy-ui
-	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/compfyui/install_full.sh | bash ; exec bash ;"
+	set command="curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/comfyui/install_full.sh | bash ; exec bash ;"
 	goto selected
 ) 
 
