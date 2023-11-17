@@ -1,12 +1,12 @@
-# Compfy UI
+# Comfy UI
 
 A powerful and modular stable diffusion GUI and backend.
 
 This ui will let you design and execute advanced stable diffusion workflows using a graph/nodes/flowchart based interface.
 
-- [Compfy UI Github](https://github.com/comfyanonymous/ComfyUI)
+- [Comfy UI Github](https://github.com/comfyanonymous/ComfyUI)
 
-- [Compfy UI Examples](https://github.com/comfyanonymous/ComfyUI_examples)
+- [Comfy UI Examples](https://github.com/comfyanonymous/ComfyUI_examples)
 
 ## Tutorials
 
