@@ -7,3 +7,7 @@
 ## SDXL 1.0 with Upscale
 
 ![Alt Text](pics/sdxl_upscale_workflow.png)
+
+## Basic Upscale Iterative pipes
+
+![Alt Text](pics/basic_upscale_pipe_workflow.png)
