@@ -163,6 +163,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Drag
 
 ## Under exploration
 
+- [ollama](https://github.com/jmorganca/ollama)
 - [AudioCraft](https://github.com/facebookresearch/audiocraft) - Meta`s audio generator
 - [h2ogpt](https://github.com/h2oai/h2ogpt) - new text gen webui?
 - [Auto GPT](https://github.com/Significant-Gravitas/Auto-GPT)
