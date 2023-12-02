@@ -41,3 +41,7 @@ https://github.com/mav-rik/facerestore_cf
 ## Animated DIFF
 
 https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
+
+https://civitai.com/articles/2379/guide-comfyui-animatediff-guideworkflows-including-prompt-scheduling-an-inner-reflections-guide
+
+[Tutorial](https://www.youtube.com/watch?v=iucrcWQ4bnE&t=768s&ab_channel=SebastianKamph)
