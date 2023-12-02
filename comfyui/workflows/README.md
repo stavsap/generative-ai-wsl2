@@ -17,3 +17,7 @@
 SDXL Turbo Model: https://huggingface.co/stabilityai/sdxl-turbo/tree/main
 
 ![Alt Text](pics/SDXL_turbo.png)
+
+## SVD Iamge To Video
+
+![Alt Text](pics/svd_img_2_vid_workflow.png)
