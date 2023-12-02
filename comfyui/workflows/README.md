@@ -24,6 +24,8 @@ SDXL Turbo Model: https://huggingface.co/stabilityai/sdxl-turbo/tree/main
 
 ## ReActor Face Swap
 
+https://github.com/Gourieff/comfyui-reactor-node
+
 ![Alt Text](pics/reactor_face_swap_workflow.png)
 
 ## IP Adapters
