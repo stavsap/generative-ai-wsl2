@@ -21,3 +21,7 @@ SDXL Turbo Model: https://huggingface.co/stabilityai/sdxl-turbo/tree/main
 ## SVD Iamge To Video
 
 ![Alt Text](pics/svd_img_2_vid_workflow.png)
+
+## IP Adapters
+
+https://github.com/cubiq/ComfyUI_IPAdapter_plus
