@@ -24,7 +24,9 @@ SDXL Turbo Model: https://huggingface.co/stabilityai/sdxl-turbo/tree/main
 
 ## IP Adapters
 
-https://github.com/cubiq/ComfyUI_IPAdapter_plus
+[Nodes github](https://github.com/cubiq/ComfyUI_IPAdapter_plus)
+
+[Tutorial](https://www.youtube.com/watch?v=yrqT5FaBoIU&ab_channel=OlivioSarikas)
 
 ![Alt Text](pics/ip_adapter_simple_workflow.png)
 
