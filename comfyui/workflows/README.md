@@ -26,6 +26,8 @@ SDXL Turbo Model: https://huggingface.co/stabilityai/sdxl-turbo/tree/main
 
 https://github.com/cubiq/ComfyUI_IPAdapter_plus
 
+![Alt Text](pics/ip_adapter_simple_workflow.png)
+
 ## Animated DIFF
 
 https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
