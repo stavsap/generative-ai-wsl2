@@ -162,7 +162,7 @@ curl -sLS https://raw.githubusercontent.com/stavsap/generative-ai-wsl2/main/Drag
 ```
 
 ## Under exploration
-
+- [PixArt](https://github.com/PixArt-alpha/PixArt-alpha)
 - [ollama](https://github.com/jmorganca/ollama)
 - [AudioCraft](https://github.com/facebookresearch/audiocraft) - Meta`s audio generator
 - [h2ogpt](https://github.com/h2oai/h2ogpt) - new text gen webui?
