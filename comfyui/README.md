@@ -15,14 +15,7 @@ This ui will let you design and execute advanced stable diffusion workflows usin
 - [Control Net Tutorial](https://www.youtube.com/watch?v=DMxnf4WXMsY&ab_channel=ScottDetweiler)
 - [IPAdapter Tutorial](https://www.youtube.com/watch?v=xzGdynQDzsM&ab_channel=ScottDetweiler)
 
-https://www.youtube.com/watch?v=_C7kR2TFIX0
-
-https://www.youtube.com/embed/_C7kR2TFIX0?si=W_NKgswCkWmVTXya
-
-[![Watch the video](https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg)](https://www.youtube.com/embed/_C7kR2TFIX0?si=W_NKgswCkWmVTXya)
-
-[<img src="https://img.youtube.com/vi/APOPm01BVrk/hqdefault.jpg" width="600" height="300"
-/>](https://www.youtube.com/embed/APOPm01BVrk)
+[![Watch the video](https://img.youtube.com/vi/_C7kR2TFIX0/hqdefault.jpg)](https://www.youtube.com/embed/_C7kR2TFIX0?si=W_NKgswCkWmVTXya)
 
 
 ## Custom Nodes
