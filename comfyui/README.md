@@ -15,6 +15,8 @@ This ui will let you design and execute advanced stable diffusion workflows usin
 - [Control Net Tutorial](https://www.youtube.com/watch?v=DMxnf4WXMsY&ab_channel=ScottDetweiler)
 - [IPAdapter Tutorial](https://www.youtube.com/watch?v=xzGdynQDzsM&ab_channel=ScottDetweiler)
 
+  https://www.youtube.com/watch?v=_C7kR2TFIX0
+
 ## Custom Nodes
 
 To install a custom node from github repo, go to "ComfyUI\custom_nodes" and perform git clone..., then restart the server.
