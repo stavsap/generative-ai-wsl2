@@ -4,21 +4,21 @@
 
 ## Basic SD 1.5
 
-![Alt Text](pics/basic_workflow.png)
+![Alt Text](pics/simple/basic_workflow.png)
 
 ## SDXL 1.0 with Upscale
 
-![Alt Text](pics/sdxl_upscale_workflow.png)
+![Alt Text](pics/sdxl/sdxl_upscale_workflow.png)
 
 ## Basic Upscale Iterative pipes
 
-![Alt Text](pics/basic_upscale_pipe_workflow.png)
+![Alt Text](pics/upscaling/basic_upscale_pipe_workflow.png)
 
 ## SDXL Turbo
 
 SDXL Turbo Model: https://huggingface.co/stabilityai/sdxl-turbo/tree/main
 
-![Alt Text](pics/SDXL_turbo.png)
+![Alt Text](pics/sdxl/SDXL_turbo.png)
 
 ## SVD Iamge To Video
 
@@ -38,7 +38,7 @@ https://github.com/mav-rik/facerestore_cf
 
 [Tutorial](https://www.youtube.com/watch?v=yrqT5FaBoIU&ab_channel=OlivioSarikas)
 
-![Alt Text](pics/ip_adapter_simple_workflow.png)
+![Alt Text](pics/ip_adapters/ip_adapter_simple_workflow.png)
 
 ## Animated DIFF
 
@@ -48,5 +48,5 @@ https://civitai.com/articles/2379/guide-comfyui-animatediff-guideworkflows-inclu
 
 [Tutorial](https://www.youtube.com/watch?v=iucrcWQ4bnE&t=768s&ab_channel=SebastianKamph)
 
-![Alt Text](pics/simpe_animated_diff_workflow.png)
+![Alt Text](pics/simple/simpe_animated_diff_workflow.png)
 
