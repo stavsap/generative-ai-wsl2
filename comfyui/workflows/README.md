@@ -40,6 +40,10 @@ https://github.com/mav-rik/facerestore_cf
 
 ![Alt Text](pics/ip_adapters/ip_adapter_simple_workflow.png)
 
+## Photo Maker
+
+[Tutorial](https://www.youtube.com/watch?v=ZTck128jfFY)
+
 ## Animated DIFF
 
 https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved
