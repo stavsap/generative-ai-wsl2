@@ -16,6 +16,7 @@ This ui will let you design and execute advanced stable diffusion workflows usin
 - [IPAdapter Tutorial](https://www.youtube.com/watch?v=xzGdynQDzsM&ab_channel=ScottDetweiler)
 
 [![Watch the video](https://img.youtube.com/vi/_C7kR2TFIX0/hqdefault.jpg)](https://www.youtube.com/embed/_C7kR2TFIX0?si=W_NKgswCkWmVTXya)
+
 [![Watch the video](https://img.youtube.com/vi/ijqXnW_9gzc/hqdefault.jpg)](https://www.youtube.com/embed/ijqXnW_9gzc)
 
 ## Custom Nodes
